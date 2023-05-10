@@ -1,0 +1,255 @@
+{
+		"speech_hotkey_vs_redo": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "redo",
+			"hotkey_combo": [ "ctrl", "y" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"redo": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_find": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "find",
+			"hotkey_combo": [ "ctrl", "f" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"find": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_new_file": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "new file",
+			"hotkey_combo": [ "ctrl", "n" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"new file": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_open_file": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "open file",
+			"hotkey_combo": [ "ctrl", "o" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"open file": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_new_project": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "new project",
+			"hotkey_combo": [ "ctrl", "shift", "n" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"new project": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_open_project": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "open project",
+			"hotkey_combo": [ "ctrl", "shift", "o" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"open project": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_go_to_line": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "go to line",
+			"hotkey_combo": [ "ctrl", "g" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"go to line": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_comment_line": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "comment line",
+			"hotkey_combo": [ "ctrl", "k", "c" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"comment line": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_build_solution": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "build solution",
+			"hotkey_combo": [ "ctrl", "shift", "b" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"build solution": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_start_debug": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "start debug",
+			"hotkey_combo": [ "f5" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"start debug": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_stop_debug": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "stop debug",
+			"hotkey_combo": [ "shift", "f5" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"stop debug": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_start_without_debug": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "start without debug",
+			"hotkey_combo": [ "ctrl", "f5" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"start without debug": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_save_all_files": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "save all files",
+			"hotkey_combo": [ "ctrl", "shift", "s" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"save all files": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_cancel_selection": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "council selection",
+			"hotkey_combo": [ "esc" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"council selection": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_cancel_process": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "council process",
+			"hotkey_combo": [ "ctrl", "fn", "pause" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"council process": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_finding_files": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "finding files",
+			"hotkey_combo": [ "ctrl", "shift", "f" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"finding files": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_find_files": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "find in files",
+			"hotkey_combo": [ "ctrl", "shift", "f" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"find in files": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_solution_explorer": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "solution explorer",
+			"hotkey_combo": [ "ctrl", "alt", "l" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"solution explorer": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_output_window": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "output window",
+			"hotkey_combo": [ "ctrl", "alt", "o" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"output window": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_replace": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "replace",
+			"hotkey_combo": [ "ctrl", "h" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"replace": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_rename": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "rename",
+			"hotkey_combo": [ "ctrl", "r" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"rename": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_show_exceptions": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "show exceptions",
+			"hotkey_combo": [ "ctrl", "alt", "e" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"show exceptions": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_vs_compile": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "compile",
+			"hotkey_combo": [ "ctrl", "f7" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"compile": [ "Keyboard", "hotkey_combination" ]
+		}
+	}
+}

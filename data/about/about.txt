@@ -1,0 +1,144 @@
+About UCL MotionInput v3
+
+
+Please see www.touchlesscomputing.org to learn about this software and its features.
+Please see Motioninput3-licence-v1.00.txt for licence terms.
+
+This touchless computing journey has just begun!
+This is Technical Preview software, is experimental and is not finished software.
+Please expect the occasional glitches - use at your own risk!
+
+
+This software will use your webcam and microphone, to calculate and relay gestures and speech as your keyboard and mouse.
+
+You may need to change settings in your antivirus (and restart) to enable this technical preview software to operate.
+Also you may have errors if you have more than one webcam plugged in.
+
+No data is being transmitted online, all processing is done on your own machine.
+
+We built this software over 3 years (with zero funds!) but a lot of inspired and motivated folks including tech communities have come on board. 
+Please do reach out to us via our website if you wish to join and contribute to our growing community.
+
+Thank you
+The UCL MotionInput team
+
+
+Acknowledgements
+----------------
+
+
+
+Academic
+
+UCL MotionInput 3 has the following project academics:
+
+Prof Dean Mohamedally (Project lead and Director)
+Prof Graham Roberts
+Mrs Sheena Visram
+Dr Atia Rafiq (honorary)
+Prof Joseph Connor (honorary) at UCL.
+
+
+Industry
+
+Prof Lee Stott (Microsoft)
+Prof John McNamara (IBM)
+Prof Neil Sebire (NHS/GOSH DRIVE)
+Costas Stylianou (Intel)
+Phillippa Chick (Intel)
+Cathy Cummings (Intl. Alliance of ALS/MND Associations)
+
+Senior directors, engineers, designers, and testers from Intel, IBM, Microsoft, Google and the NHS (including GOSH DRIVE) have participated 
+in several years of development at various stages with the students, engaging them, enabling them to present their findings and giving them 
+feedback to refine the solutions in the project.
+
+
+
+UCL Students
+
+University College London students, as part of the UCL Industry Exchange Network programme:
+
+Version 1 (Summer 2020)
+Lu Han
+Emil Almazov
+
+
+Version 2 (Summer 2021)
+Ashild Kummen
+Ali Hassan
+Chenuka Ratwatte
+Guanlin Li
+Quianying Lu
+Robert Shaw
+Teodora Ganeva
+Yang Zou
+
+
+Version 3 (Oct 2021-June 2022)
+Version 3.0-3.02
+
+Sinead Tattan – Lead Student Project Architect (Final Year CS)
+Carmen Meinson – Lead Software Development Architect (Second Year CS)
+Aaisha Niraula
+Abinav Baskar
+Adi Bozzhanov
+Alexandros Theofanous
+Ali Amiri Souri
+Andrzej Szablewski
+Aryan Jani
+Aryan Nevgi
+Ben Threader
+Chris Zhang
+Clarissa Sandejas
+Daniel Rempel
+Eesha Irfan
+Eva Miah
+Fawziyah Hussain
+Felipe Jin Li
+James Zhong
+Jason Ho
+Jianxuan Cao
+Jiaying Huang
+Kaiwen Xue
+Karunya Selvaratnam
+Keyur Narotomo
+Kyujin Sim (Chris)
+Lama Alluwaymi
+Mari Takeuchi
+Michelle Chan
+Oluwaponmile Femi-Sunmaila
+Phoenix Sun
+Pun Kamthornthip
+Radu-Bogdan Priboi
+Rakshita Kumar
+Raquel Sofia Fernandes Silva
+Samuel Emilolorun
+Elyn See Kailin
+Siam Islam
+Sibghah Khan
+Sricharan Sanakkayala
+Thomas Langford
+Tianhao Chen
+Yadong(Adam) Liu
+Yan Tung Cheryl Lai
+Zemiao Huang
+
+
+Versions 3.03-3.1 (June 2022-September 2022)
+
+Anelia Gardarzhieva (Lead Architect 3.1)
+Gincarlo Grasso
+Thomas Langford
+Jiahui Shi
+Vivek Vijay
+Elynor Kamil
+
+
+Version 3.11 Windows Store Build (December 2022)
+
+Alex Clarke (Lead Architect 3.11)
+Nerea Sainz De La Maza Melon (Compiler and Windows Store Team Lead)
+Anelia Gardarzhieva (Lead Teaching Assistant and MFC Base Code)
+Abriele Qudsi
+Chaitu Nookala
+Joseph Marcillo-Coronado

@@ -1,0 +1,694 @@
+{
+    "general": {
+        "view": {
+            "window_name": "UCL MotionInput v3.1",
+            "show_mode_name": true,
+            "show_fps": true,
+            "low_light_indicator_on": true,
+            "brightness_threshold": 60
+        },
+        "camera": {
+            "camera_w": 640,
+            "camera_h": 480,
+            "camera_nr": 0,
+            "suggested_sources": [
+                1
+            ]
+        },
+        "joypad-enabled": false,
+        "touchup_on_fail": false,
+        "logging_enabled": true,
+        "keyboard_listener_enabled": true,
+        "show_welcome_msg": false,
+        "welcome_msg": "Welcome to UCL MotionInput!\nKITA Speech commands help us control various aspects of a computer device.\n\nTo get started, here are some of these commands:\n'transcribe' and 'stop transcribe' - to begin/stop typing your words\n\n'correction mode' and 'stop correction mode' - activate during Transcription for spelling, numbers, maths, punctuation, and profanity filter\n\n'speaker identify' and 'stop speaker identify' - to go through a Speaker Identification Process that allows a user to lock KITA to their voice\n\n'help' - to open a help.txt file for more information\n\nThank you for using UCL MotionInput!\nPlease remember to send us feedback so that our team can make it even better in the future https://forms.office.com/pages/responsepage.aspx?id=_oivH5ipW0yTySEKEdmlwh1AMFDdCJ5Ai9X4GqVqjP9UOVVURzUyVFBHQUxGSDAzNTU1SjlPWTgxVi4u \nFor further information about the project and our work, please visit https://touchlesscomputing.org/"
+    },
+    "events": {
+        "click_press": {
+            "frames_for_press": 2
+        },
+        "idle_state_change": {
+            "frames_for_switch": 10
+        },
+        "palm_height_change": {
+            "frames_for_switch": 10,
+            "levels": [
+                0,
+                0.105,
+                0.155
+            ]
+        },
+        "hand_depth_click": {
+            "min_distance": 0.05,
+            "max_duration": 0.8
+        },
+        "scroll": {
+            "frames_for_switch": 2,
+            "index_middle_distance_threshold": 0.3,
+            "movement_threshold": 0.05
+        },
+        "zoom": {
+            "frames_for_switch": 4,
+            "movement_threshold": 0.05
+        },
+        "mouth_events": {
+            "frames_for_press": 3,
+            "trigger_count": 10
+        },
+        "nose_tracking": {
+            "scaling_factor": 400,
+            "nose_box_percentage_size": 0.04,
+            "nose_box_centre_X": 0.5,
+            "nose_box_centre_Y": 0.5,
+            "nose_box_up_left_bound": [
+                0,
+                0
+            ],
+            "nose_box_bot_right_bound": [
+                0,
+                0
+            ],
+            "bound_sensitivity": 5
+        },
+        "nose_scroll": {
+            "frames_for_switch": 2,
+            "change_direction": -1
+        },
+        "mode_change": {
+            "frames_for_switch": 4
+        },
+        "keyboard": {
+            "landmarks": [
+                "index",
+                "middle",
+                "ring"
+            ],
+            "gesture_type": "pulldown",
+            "single_tap_min_bound": 0.02,
+            "single_tap_max_bound": 1,
+            "hold_press_min_duration": 3,
+            "default_key_font_size": 0.75,
+            "default_key_width": 50,
+            "default_key_height": 50,
+            "default_key_bg_colour": [
+                0,
+                0,
+                0
+            ],
+            "default_transparency": 0.7
+        },
+        "extremity_walking": {
+            "up_key": "w",
+            "left_key": "a",
+            "right_key": "d",
+            "down_key": "s"
+        },
+        "exercise_events": {
+            "hold_key_down_interval": 0.5,
+            "exercise_release_interval": 0.4
+        },
+        "gamepad_mode_keys": {
+            "walking_extremities": {
+                "extremity_left_walking": "a",
+                "extremity_right_walking": "d",
+                "extremity_up_walking": "w",
+                "extremity_down_walking": "s"
+            },
+            "button_extremities": {
+                "extremity_left_button": "j",
+                "extremity_right_button": "b",
+                "extremity_up_button": "k",
+                "extremity_down_button": "l",
+                "extremity_quit_key": "esc",
+                "extremity_start_key": "space"
+            }
+        },
+        "pseudovr_mode_keys": {
+            "walking_extremities": {
+                "extremity_left_walking": "a",
+                "extremity_right_walking": "d",
+                "extremity_up_walking": "w",
+                "extremity_down_walking": "s"
+            },
+            "button_extremities": {
+                "extremity_quit_key": "esc",
+                "extremity_start_key": "space"
+            },
+            "aoi_coordinates": {
+                "x": 150,
+                "y": -100
+            }
+        },
+        "joystick": {
+            "settings": {
+                "frames_for_switch": 4
+            },
+            "ratios": {
+                "stick_left": 0.7,
+                "stick_right": 0.57,
+                "stick_forward": 0.65,
+                "stick_backward": 0.35,
+                "trigger_outwards": 0.3,
+                "trigger_inwards": 0.6
+            }
+        }
+    },
+    "modules": {
+        "hand": {
+            "gestures_max_pos_queue": null,
+            "position_pinch_sensitivity": 0.15,
+            "position_scissor_sensitivity": 0.1,
+            "position_threshold_distance": 0,
+            "min_detection_confidence": 0.6,
+            "min_tracking_confidence": 0.6,
+            "max_num_hands": 2
+        },
+        "eye": {
+            "gestures_max_pos_queue": null,
+            "screen_h": 35.0,
+            "screen_w": 61.0,
+            "camera_h": 5.0,
+            "distance_bias": 40,
+            "ys_calibrate": 4,
+            "y_coefficient": 1,
+            "y_x_coefficient": 0.01,
+            "x_l_coefficient": 1.33,
+            "x_r_coefficient": 0.75,
+            "x_bias": 0,
+            "x_r_y_coefficient": 0.001,
+            "num_to_denoise": 1,
+            "Show_Head_Position_output": 1,
+            "Show_Landmark_detection_output": 0,
+            "Show_Gaze_estimation_output": 0,
+            "Eye_mouse_speed": 10,
+            "max_y": 0.15,
+            "min_y": -0.11,
+            "max_x": 0.11,
+            "min_x": -0.3,
+            "cons_direction": ""
+        },
+        "head": {
+            "gestures_max_pos_queue": null,
+            "smiling": 0.29,
+            "fish_face": 0.2,
+            "open_mouth": 1.05,
+            "raise_eyebrow": 0.23,
+            "eyes_close": 0.13,
+            "turn_left": 0.5,
+            "turn_right": 1.5,
+            "rotate_left": 0.2,
+            "rotate_right": -0.2,
+            "TO IMPLEMENT: frames_for_press": "num 1-60",
+            "TO IMPLEMENT: trigger_count": "num 1-60",
+            "TO IMPLEMENT: nose_box_percentage": "num 0-1",
+            "TO IMPLEMENT: scaling_factor": "num 100-1000"
+        },
+        "body": {
+            "gestures_max_pos_queue": null,
+            "mode": "no_equipment",
+            "min_confidence_threshold": 5,
+            "extremity_circle_radius": 30,
+            "ankle_visibility_threshold": 0.5,
+            "calibrate_triggers": {
+                "selected_triggers_to_calibrate": []
+            }
+        },
+        "speech": {
+            "language": "english",
+            "enabled": true,
+            "transcription_enabled": true,
+            "correction_enabled": true,
+            "speaker": {
+                "speaker_model": "model-spk",
+                "speaker_enabled": true,
+                "speaker_process_msg": "Speaker Identification Process has been activated.\n\n When you close this window by pressing 'OK' you can begin speaking to generate your unique Voice print (Speaker signature). \nKITA will listen from the moment you begin speaking until it recognises a couple seconds of silence. \n\nIf you speak without a pause KITA will generate a voice print at approximately the 22 second of your speech. Then a Voice print (signature) will be generated and an attempt to match with KITA's previously stored records will take place. \n\nIn case your voice has not been registered previously, you will be asked whether you would like to add your signature to the Database. \n\nLastly you will be presented with the option to lock your MotionInput with your voice and a 'Locked' label will appear on screen. \n\n\nLocking MotionInput with your voice allows only your voice to be recognised and trigger Speech commands.\nIt is especially accurate during Transcription since the Voice print comparisons are with higher accuracy when the duration of the speech is longer. Speaker Identification testing has shown high reliability, however, there may be some discrepancies during a single word Speech commands.\n\nIf you experience these or for other problems you might encounter, please submit a Community Feedback Form via copying the link below: \n https://forms.office.com/pages/responsepage.aspx?id=_oivH5ipW0yTySEKEdmlwh1AMFDdCJ5Ai9X4GqVqjP9UOVVURzUyVFBHQUxGSDAzNTU1SjlPWTgxVi4u \n\nFor further information about UCL MotionInput Project please visit:\n https://www.touchlesscomputing.org/ \n\n\n For more accurate speaker identification, please speak without pauses for about 10-15 seconds. \n\nWhenever you are ready press 'OK' to begin speaking.",
+                "speaker_locked": false,
+                "speaker_lock_saved": {
+                    "speaker_saved_id": "",
+                    "speaker_saved_name": "",
+                    "speaker_saved_username": "",
+                    "speaker_saved_vector": []
+                }
+            },
+            "hotkeys": {
+                "hotkeys_enabled": false,
+                "hotkeys_saved_username": ""
+            }
+        }
+    },
+    "handlers": {
+        "eye_mode_switch": {
+            "enable": true
+        },
+        "eye_cal_switch": {
+            "enable": false
+        },
+        "eye_go": {
+            "enable": false
+        },
+        "aoi": {
+            "spacing_levels": [
+                0.3,
+                0.4,
+                0.5
+            ],
+            "screen_x_bound": 0.999,
+            "screen_y_bound": 1.038
+        },
+        "mouse": {
+            "smoothing": 3,
+            "sensitivity": 3
+        },
+        "touch": {
+            "radius": 5,
+            "smoothing": 3
+        },
+        "zoom": {
+            "smoothing": 3,
+            "speed": 1.14
+        },
+        "scroll": {
+            "speed": 10
+        },
+        "pen": {
+            "min_depth": 0.15,
+            "max_depth": 0.25,
+            "depth_range": 0.1,
+            "pressure_enabled": true
+        }
+    },
+    "body_gestures": {
+        "extremity_triggers": {
+            "punch_left": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    139,
+                    289
+                ],
+                "action": "key_press",
+                "key": "h",
+                "activated": false
+            },
+            "arm_left": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    195,
+                    235
+                ],
+                "action": "key_press",
+                "key": "a",
+                "activated": false
+            },
+            "kick_left": {
+                "landmark": "left_ankle_extremity",
+                "coordinates": [
+                    225,
+                    450
+                ],
+                "action": "left_click",
+                "key": "",
+                "activated": false
+            },
+            "up": {
+                "landmark": "nose_extremity",
+                "coordinates": [
+                    320,
+                    80
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "kick_right": {
+                "landmark": "right_ankle_extremity",
+                "coordinates": [
+                    406,
+                    450
+                ],
+                "action": "right_click",
+                "key": "",
+                "activated": false
+            },
+            "arm_right": {
+                "landmark": "right_wrist_extremity",
+                "coordinates": [
+                    411,
+                    234
+                ],
+                "action": "key_press",
+                "key": "d",
+                "activated": false
+            },
+            "punch_right": {
+                "landmark": "right_wrist_extremity",
+                "coordinates": [
+                    477,
+                    289
+                ],
+                "action": "key_press",
+                "key": "s",
+                "activated": false
+            },
+            "left_walking": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    80,
+                    200
+                ],
+                "action": "key_down",
+                "key": "a",
+                "activated": false
+            },
+            "right_walking": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    230,
+                    200
+                ],
+                "action": "key_down",
+                "key": "d",
+                "activated": false
+            },
+            "up_walking": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    150,
+                    130
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "down_walking": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    150,
+                    280
+                ],
+                "action": "key_down",
+                "key": "s",
+                "activated": false
+            },
+            "left_button": {
+                "landmark": "right_wrist_extremity",
+                "coordinates": [
+                    380,
+                    200
+                ],
+                "action": "key_press",
+                "key": "x",
+                "activated": false
+            },
+            "right_button": {
+                "landmark": "right_wrist_extremity",
+                "coordinates": [
+                    520,
+                    200
+                ],
+                "action": "key_press",
+                "key": "b",
+                "activated": false
+            },
+            "up_button": {
+                "landmark": "right_wrist_extremity",
+                "coordinates": [
+                    450,
+                    130
+                ],
+                "action": "key_press",
+                "key": "y",
+                "activated": false
+            },
+            "down_button": {
+                "landmark": "right_wrist_extremity",
+                "coordinates": [
+                    450,
+                    280
+                ],
+                "action": "key_press",
+                "key": "a",
+                "activated": false
+            },
+            "left_walking_rh": {
+                "landmark": "right_wrist_extremity",
+                "coordinates": [
+                    380,
+                    200
+                ],
+                "action": "key_press",
+                "key": "a",
+                "activated": false
+            },
+            "right_walking_rh": {
+                "landmark": "right_wrist_extremity",
+                "coordinates": [
+                    520,
+                    200
+                ],
+                "action": "key_press",
+                "key": "d",
+                "activated": false
+            },
+            "up_walking_rh": {
+                "landmark": "right_wrist_extremity",
+                "coordinates": [
+                    450,
+                    130
+                ],
+                "action": "key_press",
+                "key": "w",
+                "activated": false
+            },
+            "down_walking_rh": {
+                "landmark": "right_wrist_extremity",
+                "coordinates": [
+                    450,
+                    280
+                ],
+                "action": "key_press",
+                "key": "s",
+                "activated": false
+            },
+            "start_key": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    150,
+                    30
+                ],
+                "action": "key_press",
+                "key": "space",
+                "activated": false
+            },
+            "quit_key": {
+                "landmark": "right_wrist_extremity",
+                "coordinates": [
+                    450,
+                    30
+                ],
+                "action": "key_press",
+                "key": "esc",
+                "activated": false
+            },
+            "custom_1": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "custom_2": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "custom_3": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "custom_4": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "custom_5": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "custom_6": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "custom_7": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "custom_8": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "custom_9": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "custom_10": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "custom_11": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "custom_12": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "custom_13": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "custom_14": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            },
+            "custom_15": {
+                "landmark": "left_wrist_extremity",
+                "coordinates": [
+                    200,
+                    200
+                ],
+                "action": "key_down",
+                "key": "w",
+                "activated": false
+            }
+        },
+        "exercises": {
+            "no_equipment": {
+                "walking": {
+                    "states": {
+                        "walking_left": {
+                            "activated": true
+                        },
+                        "walking_right": {
+                            "activated": true
+                        }
+                    },
+                    "activated": false,
+                    "action": "key_down",
+                    "key": "w",
+                    "count_to_activate": 1
+                }
+            },
+            "equipment": {
+                "bike": {
+                    "states": {
+                        "bike_left": {
+                            "activated": true
+                        },
+                        "bike_right": {
+                            "activated": true
+                        }
+                    },
+                    "activated": false,
+                    "action": "key_down",
+                    "key": "w",
+                    "count_to_activate": 1
+                },
+                "rowing": {
+                    "states": {
+                        "rowing_left": {
+                            "activated": true
+                        },
+                        "rowing_right": {
+                            "activated": true
+                        }
+                    },
+                    "activated": false,
+                    "action": "key_down",
+                    "key": "w",
+                    "count_to_activate": 1
+                }
+            }
+        }
+    },
+    "customize_gestures": {
+        "time_setting": 20
+    }
+}

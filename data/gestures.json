@@ -1,0 +1,766 @@
+{
+    "body": {
+        "bike_left_state": {
+            "bike_left": true
+        },
+        "bike_right_state": {
+            "bike_right": true
+        },
+        "extremity_arm_left": {
+            "arm_left": true
+        },
+        "extremity_arm_right": {
+            "arm_right": true
+        },
+        "extremity_custom_1": {
+            "custom_1": true
+        },
+        "extremity_custom_10": {
+            "custom_10": true
+        },
+        "extremity_custom_11": {
+            "custom_11": true
+        },
+        "extremity_custom_12": {
+            "custom_12": true
+        },
+        "extremity_custom_13": {
+            "custom_13": true
+        },
+        "extremity_custom_14": {
+            "custom_14": true
+        },
+        "extremity_custom_15": {
+            "custom_15": true
+        },
+        "extremity_custom_2": {
+            "custom_2": true
+        },
+        "extremity_custom_3": {
+            "custom_3": true
+        },
+        "extremity_custom_4": {
+            "custom_4": true
+        },
+        "extremity_custom_5": {
+            "custom_5": true
+        },
+        "extremity_custom_6": {
+            "custom_6": true
+        },
+        "extremity_custom_7": {
+            "custom_7": true
+        },
+        "extremity_custom_8": {
+            "custom_8": true
+        },
+        "extremity_custom_9": {
+            "custom_9": true
+        },
+        "extremity_dodge": {
+            "dodge": true
+        },
+        "extremity_down_button": {
+            "down_button": true
+        },
+        "extremity_down_walking": {
+            "down_walking": true
+        },
+        "extremity_jump": {
+            "jump": true
+        },
+        "extremity_kick_left": {
+            "kick_left": true
+        },
+        "extremity_kick_right": {
+            "kick_right": true
+        },
+        "extremity_left_button": {
+            "left_button": true
+        },
+        "extremity_left_walking": {
+            "left_walking": true
+        },
+        "extremity_punch_left": {
+            "punch_left": true
+        },
+        "extremity_punch_right": {
+            "punch_right": true
+        },
+        "extremity_quit_key": {
+            "quit_key": true
+        },
+        "extremity_right_button": {
+            "right_button": true
+        },
+        "extremity_right_walking": {
+            "right_walking": true
+        },
+        "extremity_start_key": {
+            "start_key": true
+        },
+        "extremity_strike": {
+            "strike": true
+        },
+        "extremity_throw": {
+            "throw": true
+        },
+        "extremity_up": {
+            "up": true
+        },
+        "extremity_up_button": {
+            "up_button": true
+        },
+        "extremity_up_walking": {
+            "up_walking": true
+        },
+        "rowing_left_state": {
+            "rowing_left": true
+        },
+        "rowing_right_state": {
+            "rowing_right": true
+        },
+        "squating_down_state": {
+            "squating_down": true
+        },
+        "walking_left_state": {
+            "walking_left": true
+        },
+        "walking_right_state": {
+            "walking_right": true
+        }  
+    },
+    "head": {
+        "smiling_gesture": {
+            "smiling": true
+        },
+        "fish_face_gesture": {
+            "fish_face": true
+        },
+        "open_mouth_gesture": {
+            "open_mouth": true
+        },
+        "raise_eyebrows_gesture": {
+            "raise_eyebrows": true
+        },
+        "eyes_close_gesture": {
+            "eyes_close": true
+        },
+        "turn_left_gesture": {
+            "turn_left": true
+        },
+        "turn_right_gesture": {
+            "turn_right": true
+        },
+        "tilt_left_gesture": {
+            "tilt_left": true
+        },
+        "tilt_right_gesture": {
+            "tilt_right": true
+        },
+        "nose_position_gesture": {
+            "nose_point": true
+        },
+        "nose_right_gesture": {
+            "nose_right": true
+        },
+        "nose_left_gesture": {
+            "nose_left": true
+        },
+        "nose_up_gesture": {
+            "nose_up": true
+        },
+        "nose_down_gesture": {
+            "nose_down": true
+        },
+        "nose_scroll_up_gesture": {
+            "open_mouth": true,
+            "nose_up": true
+        },
+        "nose_scroll_down_gesture": {
+            "open_mouth": true,
+            "nose_down": true
+        },
+        "nose_zoom_in_gesture": {
+            "fish_face": true,
+            "nose_left": true
+        },
+        "nose_zoom_out_gesture": {
+            "fish_face": true,
+            "nose_right": true
+        },
+        "left_rotation_gesture": {
+            "rotate_left": true
+        },
+        "raise_eye_brow_gesture": {
+            "raise_eye_brow": true
+        },
+        "right_rotation_gesture": {
+            "rotate_right": true
+        }
+    },
+    "eye": {
+        "gaze_nose3d_gesture": {
+            "gaze": true,
+            "nose3d": true
+        }
+    },
+    "hand": {
+        "double_pinch": {
+            "index_pinched": true,
+            "middle_pinched": true,
+            "palm_facing_camera": true,
+            "pinky_pinched": false,
+            "ring_pinched": false
+        },
+        "double_scissor": {
+            "index_scissor": true,
+            "thumb_scissor": true
+        },
+        "facing_camera": {
+            "palm_facing_camera": true
+        },
+        "fist": {
+            "index_folded": true,
+            "middle_folded": true,
+            "pinky_folded": true,
+            "ring_folded": true
+        },
+        "gun": {
+            "index_stretched": true,
+            "middle_folded": true,
+            "pinky_folded": true,
+            "ring_folded": true,
+            "thumb_stretched": true
+        },
+        "gun_move": {
+            "index_stretched": true,
+            "middle_stretched": true,
+            "pinky_folded": true,
+            "ring_folded": true,
+            "thumb_stretched": true
+        },
+        "hand_drive": {
+            "index_folded": true,
+            "middle_folded": true,
+            "ring_folded": true
+        },
+        "index_fold": {
+            "index_folded": true,
+            "middle_stretched": true,
+            "pinky_stretched": true,
+            "ring_stretched": true,
+            "thumb_stretched": true
+        },
+        "index_pinch": {
+            "index_pinched": true,
+            "middle_pinched": false,
+            "palm_facing_camera": true,
+            "pinky_pinched": false,
+            "ring_pinched": false
+        },
+        "index_pulldown": {
+            "index_pulldown": true
+        },
+        "index_scissor": {
+            "index_scissor": true,
+            "thumb_scissor": false
+        },
+        "middle_fold": {
+            "index_stretched": true,
+            "middle_folded": true,
+            "pinky_stretched": true,
+            "ring_stretched": true,
+            "thumb_stretched": true
+        },
+        "middle_pinch": {
+            "index_pinched": false,
+            "middle_pinched": true,
+            "palm_facing_camera": true,
+            "pinky_pinched": false,
+            "ring_pinched": false
+        },
+        "middle_pulldown": {
+            "middle_pulldown": true
+        },
+        "mr_swipe": {
+            "index_stretched": true,
+            "middle_stretched": true
+        },
+        "peace": {
+            "index_stretched": true,
+            "middle_stretched": true,
+            "pinky_folded": true,
+            "ring_folded": true,
+            "thumb_folded": true
+        },
+        "pen_hold": {
+            "index_pinched": true,
+            "pinky_folded": true
+        },
+        "pinky_fold": {
+            "index_stretched": true,
+            "middle_stretched": true,
+            "pinky_folded": true,
+            "ring_folded": false,
+            "thumb_stretched": true
+        },
+        "pinky_pinch": {
+            "index_pinched": false,
+            "middle_pinched": false,
+            "palm_facing_camera": true,
+            "pinky_pinched": true,
+            "ring_pinched": false
+        },
+        "rabbit": {
+            "index_pinched": false,
+            "middle_pinched": true,
+            "palm_facing_camera": true,
+            "pinky_pinched": false,
+            "ring_pinched": true
+        },
+        "resting": {
+            "hand_closed": true
+        },
+        "ring_fold": {
+            "index_stretched": true,
+            "middle_stretched": true,
+            "pinky_stretched": true,
+            "ring_folded": true,
+            "thumb_stretched": true
+        },
+        "ring_pinch": {
+            "index_pinched": false,
+            "middle_pinched": false,
+            "palm_facing_camera": true,
+            "pinky_pinched": false,
+            "ring_pinched": true
+        },
+        "ring_pulldown": {
+            "ring_pulldown": true
+        },
+        "rocknroll": {
+            "index_stretched": true,
+            "middle_folded": true,
+            "palm_facing_camera": true,
+            "pinky_stretched": true,
+            "ring_folded": true
+        },
+        "samurai_swipe": {
+            "middle_stretched": true,
+            "pinky_stretched": true,
+            "ring_stretched": true
+        },
+        "scroll": {
+            "index_pinched": false,
+            "middle_pinched": false,
+            "palm_facing_camera": true,
+            "pinky_folded": true,
+            "ring_folded": true
+        },
+        "spiderman_thwip": {
+            "index_stretched": true,
+            "pinky_stretched": true,
+            "thumb_stretched": true
+        },
+        "stretched": {
+            "index_stretched": true,
+            "middle_stretched": true,
+            "pinky_stretched": true,
+            "ring_stretched": true,
+            "thumb_stretched": true
+        },
+        "thumb_fold": {
+            "index_stretched": true,
+            "middle_stretched": true,
+            "pinky_stretched": true,
+            "ring_stretched": true,
+            "thumb_folded": true
+        },
+        "thumb_scissor": {
+            "index_scissor": false,
+            "thumb_scissor": true
+        },
+        "triple_pinch": {
+            "index_pinched": true,
+            "middle_pinched": true,
+            "palm_facing_camera": true,
+            "pinky_pinched": false,
+            "ring_pinched": true
+        }
+    },
+    "speech": {
+        "back": {
+            "back": true
+        },
+        "build solution": {
+            "build solution": true
+        },
+        "butterfly": {
+            "butterfly": true
+        },
+        "capital letters": {
+            "capital letters": true
+        },
+        "change": {
+            "change": true
+        },
+        "change language": {
+            "change language": true
+        },
+        "click": {
+            "click": true
+        },
+        "close window": {
+            "close window": true
+        },
+        "comment line": {
+            "comment line": true
+        },
+        "compile": {
+            "compile": true
+        },
+        "continue": {
+            "continue": true
+        },
+        "control copy": {
+            "control copy": true
+        },
+        "control paste": {
+            "control paste": true
+        },
+        "copy": {
+            "copy": true
+        },
+        "copy to clipboard": {
+            "copy to clipboard": true
+        },
+        "correction mode": {
+            "correction mode": true
+        },
+        "council process": {
+            "council process": true
+        },
+        "council selection": {
+            "council selection": true
+        },
+        "cut": {
+            "cut": true
+        },
+        "disable speaker mode": {
+            "disable speaker mode": true
+        },
+        "dodge": {
+            "dodge": true
+        },
+        "double click": {
+            "double click": true
+        },
+        "down": {
+            "down": true
+        },
+        "eight": {
+            "eight": true
+        },
+        "enable speaker mode": {
+            "enable speaker mode": true
+        },
+        "enter": {
+            "enter": true
+        },
+        "escape": {
+            "escape": true
+        },
+        "files": {
+            "files": true
+        },
+        "find": {
+            "find": true
+        },
+        "find in files": {
+            "find in files": true
+        },
+        "finding files": {
+            "finding files": true
+        },
+        "finish": {
+            "finish": true
+        },
+        "five": {
+            "five": true
+        },
+        "four": {
+            "four": true
+        },
+        "go": {
+            "go": true
+        },
+        "go left": {
+            "go left": true
+        },
+        "go right": {
+            "go right": true
+        },
+        "go to line": {
+            "go to line": true
+        },
+        "hashtag": {
+            "hashtag": true
+        },
+        "health": {
+            "health": true
+        },
+        "help": {
+            "help": true
+        },
+        "hit": {
+            "hit": true
+        },
+        "hold left": {
+            "hold left": true
+        },
+        "hold right": {
+            "hold right": true
+        },
+        "insert to editor": {
+            "insert to editor": true
+        },
+        "jump": {
+            "jump": true
+        },
+        "left": {
+            "left": true
+        },
+        "left range": {
+            "left range": true
+        },
+        "macros": {
+            "macros": true
+        },
+        "maximize": {
+            "maximize": true
+        },
+        "maximize left": {
+            "maximize left": true
+        },
+        "maximize right": {
+            "maximize right": true
+        },
+        "minimize": {
+            "minimize": true
+        },
+        "mute": {
+            "mute": true
+        },
+        "new file": {
+            "new file": true
+        },
+        "new message": {
+            "new message": true
+        },
+        "new project": {
+            "new project": true
+        },
+        "next mode": {
+            "next mode": true
+        },
+        "nine": {
+            "nine": true
+        },
+        "one": {
+            "one": true
+        },
+        "open": {
+            "open": true
+        },
+        "open all windows": {
+            "open all windows": true
+        },
+        "open file": {
+            "open file": true
+        },
+        "open project": {
+            "open project": true
+        },
+        "output window": {
+            "output window": true
+        },
+        "page down": {
+            "page down": true
+        },
+        "page up": {
+            "page up": true
+        },
+        "paste": {
+            "paste": true
+        },
+        "print": {
+            "print": true
+        },
+        "redo": {
+            "redo": true
+        },
+        "release left": {
+            "release left": true
+        },
+        "release right": {
+            "release right": true
+        },
+        "remove": {
+            "remove": true
+        },
+        "remove locked speaker": {
+            "remove locked speaker": true
+        },
+        "rename": {
+            "rename": true
+        },
+        "replace": {
+            "replace": true
+        },
+        "reset": {
+            "reset": true
+        },
+        "reset ranges": {
+            "reset ranges": true
+        },
+        "reset zoom": {
+            "reset zoom": true
+        },
+        "right": {
+            "right": true
+        },
+        "right click": {
+            "right click": true
+        },
+        "right range": {
+            "right range": true
+        },
+        "run": {
+            "run": true
+        },
+        "save": {
+            "save": true
+        },
+        "save all files": {
+            "save all files": true
+        },
+        "screenshot": {
+            "screenshot": true
+        },
+        "settings": {
+            "settings": true
+        },
+        "seven": {
+            "seven": true
+        },
+        "shoot": {
+            "shoot": true
+        },
+        "show exceptions": {
+            "show exceptions": true
+        },
+        "show full screen": {
+            "show full screen": true
+        },
+        "six": {
+            "six": true
+        },
+        "sneak": {
+            "sneak": true
+        },
+        "solution explorer": {
+            "solution explorer": true
+        },
+        "space": {
+            "space": true
+        },
+        "speaker identify": {
+            "speaker identify": true
+        },
+        "stand": {
+            "stand": true
+        },
+        "start": {
+            "start": true
+        },
+        "start debug": {
+            "start debug": true
+        },
+        "start menu": {
+            "start menu": true
+        },
+        "start without debug": {
+            "start without debug": true
+        },
+        "step": {
+            "step": true
+        },
+        "stop": {
+            "stop": true
+        },
+        "stop correction mode": {
+            "stop correction mode": true
+        },
+        "stop debug": {
+            "stop debug": true
+        },
+        "stop speaker identify": {
+            "stop speaker identify": true
+        },
+        "stop transcribe": {
+            "stop transcribe": true
+        },
+        "strike": {
+            "strike": true
+        },
+        "swing": {
+            "swing": true
+        },
+        "switch": {
+            "switch": true
+        },
+        "tag": {
+            "tag": true
+        },
+        "three": {
+            "three": true
+        },
+        "throw": {
+            "throw": true
+        },
+        "transcribe": {
+            "transcribe": true
+        },
+        "two": {
+            "two": true
+        },
+        "undo": {
+            "undo": true
+        },
+        "up": {
+            "up": true
+        },
+        "volume down": {
+            "volume down": true
+        },
+        "volume up": {
+            "volume up": true
+        },
+        "walk": {
+            "walk": true
+        },
+        "windows key": {
+            "windows key": true
+        },
+        "windows run": {
+            "windows run": true
+        },
+        "zip": {
+            "zip": true
+        },
+        "zoom in": {
+            "zoom in": true
+        }
+    }
+}

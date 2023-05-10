@@ -1,0 +1,275 @@
+2023-02-23 00:32:33,276 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 00:32:33,276 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 00:32:37,833 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 00:32:37,835 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 00:32:37,835 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 00:32:55,855 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 00:32:55,855 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 00:33:01,198 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 00:33:01,538 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 00:33:01,538 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 00:35:18,732 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 00:35:18,732 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 00:35:20,661 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 00:35:21,024 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 00:35:21,025 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 09:25:11,819 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 09:25:11,820 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 09:25:14,498 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 09:25:14,863 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 09:25:14,864 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 09:56:38,530 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 09:56:38,530 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 09:56:41,150 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 09:56:41,483 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 09:56:41,483 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 09:59:44,082 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 09:59:44,082 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 09:59:49,320 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 09:59:49,682 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 09:59:49,682 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 10:06:09,856 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 10:06:09,856 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 10:06:23,702 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 10:06:24,042 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 10:06:24,042 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 10:30:07,358 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 10:30:07,359 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 10:30:09,944 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 10:30:10,279 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 10:30:10,279 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 10:30:22,290 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 10:30:22,290 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 10:30:24,279 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 10:30:24,640 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 10:30:24,640 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 11:31:03,140 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 11:31:03,140 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 11:31:04,961 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 11:31:05,323 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 11:31:05,323 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 11:31:12,798 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 11:31:12,798 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 11:31:14,682 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 11:31:15,022 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 11:31:15,022 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 12:29:29,795 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 12:29:29,796 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 12:29:34,600 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 12:29:34,933 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 12:29:34,934 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 12:48:53,105 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 12:50:13,031 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 12:59:00,876 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 12:59:00,876 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:01:39,324 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 13:01:39,324 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:01:44,761 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:01:55,342 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 13:01:55,343 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:11:00,636 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:13:04,290 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:13:38,357 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:14:04,626 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 13:14:04,626 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:14:08,128 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:14:53,537 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 13:14:53,538 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:15:27,484 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:15:27,823 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 13:15:27,823 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 13:17:22,451 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:18:21,330 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 13:18:21,330 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:19:15,548 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:19:15,876 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 13:19:15,877 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 13:20:40,839 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 13:20:40,840 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:21:25,937 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:21:26,298 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 13:21:26,298 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 13:22:41,174 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 13:22:41,174 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:23:46,841 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:23:54,891 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 13:23:54,891 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:24:54,083 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:24:54,448 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 13:24:54,448 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 13:26:29,844 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 13:26:29,844 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:26:37,500 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:26:37,834 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 13:26:37,834 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-02-23 13:33:31,104 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 13:33:31,104 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:33:47,052 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:37:02,425 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 13:37:02,425 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:37:36,118 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 13:37:36,118 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:38:11,920 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 13:38:11,921 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:38:13,366 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:39:03,711 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-02-23 13:39:03,711 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 349
+2023-02-23 13:39:26,595 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-02-23 13:39:26,936 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 186
+2023-02-23 13:39:26,936 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 354
+2023-04-04 04:33:09,354 <ERROR> ['_traverse_json: path <C:\Documents\Github\MI_v3.2\data\config.json> does not exist']  -  Path: <motioninput_api.scripts.tools.json_editors.json_editor>  -  Function Name: _traverse_json - Line: 172
+2023-04-04 04:33:09,354 <ERROR> ['get_data: C:\Documents\Github\MI_v3.2\data\config.json path does not exist']  -  Path: <motioninput_api.scripts.tools.json_editors.json_editor>  -  Function Name: get_data - Line: 84
+2023-04-04 04:33:09,409 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-04-04 04:35:08,876 <ERROR> ['_traverse_json: path <C:\Documents\Github\MI_v3.2\data\config.json> does not exist']  -  Path: <motioninput_api.scripts.tools.json_editors.json_editor>  -  Function Name: _traverse_json - Line: 172
+2023-04-04 04:35:08,876 <ERROR> ['get_data: C:\Documents\Github\MI_v3.2\data\config.json path does not exist']  -  Path: <motioninput_api.scripts.tools.json_editors.json_editor>  -  Function Name: get_data - Line: 84
+2023-04-04 04:35:08,954 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-04-04 04:36:58,315 <ERROR> ['_traverse_json: path <C:\Documents\Github\MI_v3.2\data\config.json> does not exist']  -  Path: <motioninput_api.scripts.tools.json_editors.json_editor>  -  Function Name: _traverse_json - Line: 172
+2023-04-04 04:36:58,315 <ERROR> ['get_data: C:\Documents\Github\MI_v3.2\data\config.json path does not exist']  -  Path: <motioninput_api.scripts.tools.json_editors.json_editor>  -  Function Name: get_data - Line: 84
+2023-04-04 04:36:58,371 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-04-04 04:39:26,810 <ERROR> ['_traverse_json: path <C:\Documents\Github\MI_v3.2\data\config.json> does not exist']  -  Path: <motioninput_api.scripts.tools.json_editors.json_editor>  -  Function Name: _traverse_json - Line: 172
+2023-04-04 04:39:26,810 <ERROR> ['get_data: C:\Documents\Github\MI_v3.2\data\config.json path does not exist']  -  Path: <motioninput_api.scripts.tools.json_editors.json_editor>  -  Function Name: get_data - Line: 84
+2023-04-04 04:39:27,017 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-04-04 04:44:10,797 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-04-04 04:44:10,797 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-04-04 04:44:15,824 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-04-04 04:44:16,145 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-04-04 04:44:16,145 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-04-04 04:44:56,591 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-04-04 04:44:56,591 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-04-04 04:45:07,816 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-04-04 04:45:08,129 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-04-04 04:45:08,129 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 00:31:26,655 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:31:26,655 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:31:29,021 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 00:31:29,534 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 00:31:29,535 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 00:31:44,957 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 00:32:31,845 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 00:33:10,829 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 00:33:30,305 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 00:33:55,351 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:33:55,351 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:37:55,041 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:37:55,041 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:39:17,820 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:39:17,820 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:42:34,128 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 00:43:01,377 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:43:01,377 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:45:07,543 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:45:07,543 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:45:09,672 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 00:45:10,187 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 00:45:10,188 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 00:47:55,217 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:47:55,217 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:47:58,092 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 00:47:58,635 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 00:47:58,635 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 00:48:18,161 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:48:18,161 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:48:19,940 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 00:48:20,481 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 00:48:20,482 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 00:48:52,860 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:48:52,860 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:49:51,942 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:49:51,942 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:53:52,774 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:53:52,774 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:53:54,452 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 00:53:54,990 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 00:53:54,990 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 00:55:31,041 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:55:31,041 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:56:19,779 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:56:19,779 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:58:04,731 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:58:04,732 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:58:06,139 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 00:58:06,754 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 00:58:06,754 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 00:58:53,301 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:58:53,301 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:59:27,868 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 00:59:27,868 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 00:59:29,796 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 00:59:30,276 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 00:59:30,276 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 01:03:19,147 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:03:19,147 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:03:21,443 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 01:03:22,022 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 01:03:22,022 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 01:04:18,252 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:04:18,252 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:04:57,867 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:04:57,867 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:06:27,329 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:06:27,330 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:07:45,391 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:07:45,391 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:08:15,114 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:08:15,114 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:08:17,315 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 01:08:17,884 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 01:08:17,885 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 01:12:18,761 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:12:18,761 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:12:21,534 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 01:12:22,087 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 01:12:22,087 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 01:12:34,202 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:12:34,202 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:12:36,594 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 01:12:37,171 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 01:12:37,171 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 01:12:55,766 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:12:55,766 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:12:57,262 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 01:12:57,796 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 01:12:57,796 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 01:13:27,408 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:13:27,408 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:14:34,674 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:14:34,674 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:15:48,567 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:15:48,568 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:15:50,033 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 01:15:50,532 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 01:15:50,532 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 01:16:09,814 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:16:09,814 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:16:11,018 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 01:16:11,561 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 01:16:11,561 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 01:16:30,881 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:16:30,883 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:16:31,974 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 01:16:32,541 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 01:16:32,541 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 01:16:45,819 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:16:45,819 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:17:07,025 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:17:07,025 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:17:33,425 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:17:33,426 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:17:35,469 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 01:17:35,976 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 01:17:35,977 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 01:18:47,656 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:18:47,656 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:18:49,053 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 01:18:49,565 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 01:18:49,566 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 01:19:01,860 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:19:01,861 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:19:03,310 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 01:19:03,883 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 01:19:03,883 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332
+2023-05-10 01:19:20,422 <INFO> ['[[MI Started]]']  -  Path: <motioninput_api>  -  Function Name: start - Line: 98
+2023-05-10 01:19:20,422 <INFO> ['[MI Started]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 327
+2023-05-10 01:19:21,794 <INFO> ['Camera Thread Ended']  -  Path: <motioninput_api.scripts.tools.camera>  -  Function Name: _update_frame - Line: 106
+2023-05-10 01:19:22,381 <INFO> ['View closed: _stop() triggered']  -  Path: <motioninput_api>  -  Function Name: run - Line: 160
+2023-05-10 01:19:22,381 <INFO> ['[MI Stopped]']  -  Path: <motioninput_api>  -  Function Name: <module> - Line: 332

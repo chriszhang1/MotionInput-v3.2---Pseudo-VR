@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+build
+
+venv/
+v_env/
+Release
+
+.idea
+.vs
+env
+.DS_Store

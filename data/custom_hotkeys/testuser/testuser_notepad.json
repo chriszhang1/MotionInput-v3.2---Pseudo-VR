@@ -1,0 +1,46 @@
+{
+		"speech_hotkey_remove": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "remove",
+			"hotkey_combo": [ "delete" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"remove": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_close": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "close window",
+			"hotkey_combo": [ "alt", "f4" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"close window": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_window_minimize": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "minimize",
+			"hotkey_combo": [ "win", "down" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"minimize": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_window_maximize": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "maximize",
+			"hotkey_combo": [ "win", "up" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"maximize": [ "Keyboard", "hotkey_combination" ]
+		}
+	}
+}

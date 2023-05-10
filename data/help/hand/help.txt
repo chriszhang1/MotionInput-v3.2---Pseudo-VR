@@ -1,0 +1,52 @@
+This file contains the gesture bindings for the Multitouch and Classic Mouse modes.
+For additional help and further information, see the MotionInput3-FAQ-HelpGuide.txt file.
+
+Multitouch Gestures
+---
+- Raising your right hand, you will be able to do the following:
+>Index Pinch (Index Finger and Thumb)- native Windows Touchpoints Press (should appear as a round translucent circle)
+>Middle Pinch (Middle Finger and Thumb) - Left Mouse Click (or just say "click")
+>Ring Pinch (Ring Finger and Thumb) - Double Left Mouse Click (or just say "double click")
+>Pinky Pinch (Pinky Little Finger and Thumb) - Right Mouse Click (or just say "right click")
+
+- With both the right and left hand raised, you will be able to do the following:
+>Both right and left hands doing Index Pinch, moving in and out, starting with right hand - Touchpoints Drag (zooming in a browser)
+You can also select and drag in-air by saying "hold left" (meaning, hold the left mouse button), and "release left" (to release the left mouse button).
+
+>Double Pinch - Pinch both the index and middle finger with the thumb (with all other fingers raised) on the LEFT hand - Left Mouse Press (holds left mouse button until the gesture is released)
+Performing the gesture with the left hand activates left mouse press, with the right/dominant hand still being responsible for mouse movement.
+Move your right hand whilst holding this gesture with the left hand to drag across the screen.
+
+>Ring Pinch (Ring Finger and Thumb) on the LEFT hand - Right Mouse Press - holds right mouse button until the gesture is released. Move the right/dominant hand whilst holding this gesture on
+the left to right click drag across the screen.
+
+>Rabbit Pinch - Pinch the middle and ring finger with the thumb (with all other fingers raised) on the LEFT hand - Monitor Switch - perform this gesture once to switch to the next screen/monitor (if connected).
+Repeatedly perform this gesture to cycle through multiple monitors.
+
+>Pinky Pinch (Pinky Little Finger and Thumb) on the LEFT hand - activates 3 finger swipe mode - performing this gesture simulates pressing 3 fingers side by side on the screen.
+Move your RIGHT hand up/down/sideways whilst holding this gesture on the LEFT hand to perform 3-finger swipe gestures (supported on Windows 11).
+Here are some of the actions you can perform whilst holding this gesture with your left hand:
+ - Move your RIGHT hand upwards and then release the gesture on the LEFT hand to show all open windows.
+ - Move your RIGHT hand downwards and then release the gesture on the LEFT hand to show the desktop.
+ - Move your RIGHT hand left/right to switch to the last open app.
+You can find the full list of supported gestures on: https://support.microsoft.com/en-us/windows/touch-gestures-for-windows-a9d28305-4818-a5df-4e2b-e5590f850741#WindowsVersion=Windows_11
+
+
+Classic Mouse Gestures
+---
+- Raising your right hand, you will be able to do the following:
+>Index Pinch (Index Finger and Thumb)- Left Mouse Press (or just say "hold left" and then "release left" when desired)
+>Middle Pinch (Middle Finger and Thumb) - Right Mouse Press (or just say "hold right" and then "release right" when desired)
+>Make a fist with your hand - Double Mouse Click (or just say "double click")
+>Index pinch on both left and right hand and then move hands closer/further apart - Zoom in/out on a browser
+>Press the index and middle finger against each other (side by side) and then tilt hand upwards/downwards to scroll up/down accordingly
+>Pinky Pinch (Pinky Little Finger and Thumb) - Monitor Switch - perform this gesture once to switch to the next screen/monitor (if connected).
+Repeatedly perform this gesture to cycle through multiple monitors.
+
+
+How can I make it easier to see where I am pressing on Multitouch?
+On Windows 10:
+Open the Settings app, and navigate to Ease of Access and then click on "Mouse pointer" on the left panel under the Vision. Make sure "Show visual feedback when I touch the screen" is enabled and
+then check "Make visual feedback for touchpoints darker and larger".
+On Windows 11:
+Open the Settings app, navigate to Accessibility and then click on "Mouse pointer and touch". Make sure "Touch indicator" is enabled and then check "Make the circle darker and larger".

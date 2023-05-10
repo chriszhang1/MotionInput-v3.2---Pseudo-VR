@@ -1,0 +1,174 @@
+UCL MotionInput v3.2 - Facial Navigation with Speech and Gestures
+
+This application simulates control of the mouse and keyboard, primarily by moving your face around a central point, and enables both speech or facial movements (like raising an eyebrow, opening a mouth) to use mouse gestures. It has speech commands, and live transcription (live captions) available in English.
+
+This file contains the gesture bindings for the Facial Navigation.
+For additional help and further information, see the MotionInput3-FAQ-HelpGuide.txt file.
+
+Here are the modes available:
+
+1. Nose Navigation with Speech
+2. Nose Navigation with Facial Switches
+3. Eye Gaze with Speech (you may find it is more accurate to remove your glasses if you wear glasses)
+4. Eye Gaze with Facial Switches 
+
+Whenever you need the Windows user interface (GUI) once MotionInput is running, you can press comma (",") to bring the window up again.
+
+Mode 1. Nose Navigation with Speech
+
+This mode creates a joystick around your nose to control the mouse, with the centering of your nose as the rest position. You can move the mouse up, down, left or right, by moving your head with your neck and body. The blue box that you will see is called the area of interest (AOI). Once your nose is inside that box, it will be evaluating the nose from the start up position of where you are.
+
+To reset where the mouse starts from, to anchor to your nose, say out loud clearly "BUTTERFLY".
+You can do this whenever you move in your seat and you want to reset the resting location of the mouse to your nose.
+
+To do a mouse click on an icon or click in a game/app, say "click". The same for "double click" and "right click". Also useful for games if they use arrow key presses, is to say next, previous, up and down, referring to the right, left, up and down arrow keys.
+
+To click say "click", "right click", "double click" and to click and drag (left mouse button and holding it down), say "hold left" and "release left". The same for right mouse click, "hold right" and "release right".
+
+
+Modes 1 and 3. A list of speech commands - say the word to action the command 
+---------------------------
+Butterfly - resets nose joystick to centre
+
+Reset - Redo the calibration of Eye Grid/Magnet Mode 
+
+Left Range - Sets the upper left range limit in the In-Range Nose Grid Mode 
+
+Right Range - Sets the lower right range limit in the In-Range Nose Grid Mode 
+
+Reset Ranges - Resets the default settings in the Nose Grid Mode 
+
+
+(Eye gaze specific commands)
+Start - Start the Eye Grid Mode movement of the cursor 
+
+Go - Lock the direction of the movement for the Eye Magnet Mode 
+
+Stop - Stop the movement of the cursor in Eye Grid/Magnet Mode 
+
+
+(Clicking)
+Click  - Left mouse click 
+
+Right click  - Right mouse click  
+
+Double click - Double click (left mouse button) 
+
+
+(Dragging)
+Hold left - Left mouse click and hold 
+
+Release left - Left click release (Reset cursor after “Hold Left” command) 
+
+Hold Right - Right click press and hold 
+
+Release Right - Right click release (Reset cursor after “Hold Right” command) 
+
+
+
+(Transcribe / Live Captioning / Filling in forms with speech)
+Transcribe - Enable transcribe mode 
+
+Stop Transcribe - Disable transcribe mode 
+
+
+
+(Keyboard keys)
+Next - Right Arrow key press 
+
+Previous - Left Arrow key press 
+
+Up - Up Arrow key press 
+
+Down - Down Arrow key press 
+
+Enter - Enter Key press 
+
+Escape - Esc Key press 
+
+Page Down - Scrolls the page down 
+
+Page Up - Scrolls the page up 
+
+Full Screen - Show full screen view (for powerpoint – F5 key) 
+
+Save - Save (Ctrl+ S) 
+
+Space - Space bar
+
+Copy - Copy (Ctrl + C) 
+
+Cut - Cut (Ctrl + X) 
+
+Paste - Paste (Ctrl + V) 
+
+Print - Print (Ctrl + P) 
+
+Help - Help (F1) 
+
+Revert - Undo (Ctrl + Z) 
+
+Escape - Escape Key press 
+
+Switch - Switch Windows (Alt + Tab) 
+
+Volume up - Increase the volume 
+
+Volume down - Decrease the volume 
+
+Close - Close (Alt + F4) 
+
+
+
+(Windows Operations)
+Windows Run - Open Windows Run window  
+
+Windows Key - Windows key press 
+
+Maximize - Maximize active window 
+
+Minimize - Minimize active window 
+
+Files - Opens Windows file explorer
+
+
+
+
+
+Features 
+
+From v3.03+, a new In-Range model has been added to detect from the maximum ranges you can move your neck. 
+Saying "left range" upon starting will set up the leftmost position marker, followed by saying "right range" will set the rightmost position marker. The size of the nose joystick will then shrink to match, and it should be more comfortable in moving within those ranges. Say "reset ranges" to go back to the default.
+
+In any editable text field, including in Word, Outlook, Teams etc; say "transcribe" and "stop transcribe" to start and stop transcription. Speak with short English sentences and pause, and it should appear.
+
+In any browser or office app, "page up" and "page down". "Cut", "Copy", "Paste", "left arrow", "right arrow" work as well.
+
+In powerpoint you can say "next", "previous", "show fullscreen" and "escape".
+
+
+Mode 3 and 4. Eye Gaze 
+
+This mode creates tracks your eyes to control the mouse and is intended for users who cannot move their neck or body. You will start with a calibration screen. You can move the mouse up, down, left or right. There is a mode with speech, or without speech and with facial switches.
+
+In Eye Gaze with Speech, while watching in a direction, say "go" and cursor will start moving in that direction. Say "stop" to stop.
+
+
+Modes 2 and 4. Facial Switches (both for Nose Navigation and Eye Gaze) 
+
+The facial switch gestures available in the Windows MFC application for the non-speech modes are:
+	
+Smile			
+Fish Face		
+Eyebrow Raised		
+Mouth Open		
+
+Head rotation and head tilt are only available in eye gaze mode.
+In eye gaze mode you can toggle mouse navigation on or off.
+
+
+On some computers we have found that the Microsoft Visual C++ Redistributable is not installed. If no window appears, try installing this for X64 - https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
+
+For feedback and comments, please do reach out to us on our website www.touchlesscomputing.org
+

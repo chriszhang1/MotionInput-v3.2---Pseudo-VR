@@ -1,0 +1,191 @@
+{
+	"speech_hotkey_go_left": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "go left",
+			"hotkey_combo": [ "home" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"go left": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_go_right": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "go right",
+			"hotkey_combo": [ "end" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"go right": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_remove": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "remove",
+			"hotkey_combo": [ "delete" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"remove": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_close": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "close window",
+			"hotkey_combo": [ "alt", "f4" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"close window": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_window_minimize": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "minimize",
+			"hotkey_combo": [ "win", "down" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"minimize": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_window_maximize": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "maximize",
+			"hotkey_combo": [ "win", "up" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"maximize": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_window_maximize_left": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "maximize left",
+			"hotkey_combo": [ "win", "left" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"maximize left": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_window_maximize_right": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "maximize right",
+			"hotkey_combo": [ "win", "right" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"maximize right": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_windows_explorer_files": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "files",
+			"hotkey_combo": [ "win", "e" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"files": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_windows_screenshot": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "screenshot",
+			"hotkey_combo": [ "alt", "printscreen" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"screenshot": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_save": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "save",
+			"hotkey_combo": [ "ctrl", "s" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"save": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+
+		"speech_hotkey_paste": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "paste",
+			"hotkey_combo": [ "ctrl", "v" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"paste": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_revert": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "undo",
+			"hotkey_combo": [ "ctrl", "z" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"undo": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_print": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "print",
+			"hotkey_combo": [ "ctrl", "p" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"print": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_full_screen": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "show full screen",
+			"hotkey_combo": [ "ctrl", "f5" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"show full screen": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_new_message": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "new message",
+			"hotkey_combo": [ "ctrl", "n" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"new message": [ "Keyboard", "hotkey_combination" ]
+		}
+	},
+	"speech_hotkey_teams_mute": {
+		"type": "SpeechEvent",
+		"args": {
+			"phrase": "mute",
+			"hotkey_combo": [ "ctrl", "shift", "m" ]
+		},
+		"bodypart_names_to_type": { "speech": "speech" },
+		"triggers": {
+			"mute": [ "Keyboard", "hotkey_combination" ]
+		}
+	}
+
+}

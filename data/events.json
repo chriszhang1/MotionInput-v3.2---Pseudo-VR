@@ -1,0 +1,3534 @@
+{
+    "speech_start_transcribe": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "transcribe" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "transcribe": [ "Transcriber", "start_transcribe" ]
+        }
+    },
+    "speech_stop_transcribe": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "stop transcribe" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "stop transcribe": [ "Transcriber", "stop_transcribe" ]
+        }
+    },
+    "speech_change_language": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "change language" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "change language": [ "Transcriber", "change_speech_language" ]
+        }
+    },
+    "speech_correction_mode_start": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "correction mode" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "correction mode": [ "CorrectionMode", "start_correction_mode" ]
+        }
+    },
+    "speech_correction_mode_stop": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "stop correction mode" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "stop correction mode": [ "CorrectionMode", "stop_correction_mode" ]
+        }
+    },
+    "speech_start_speaker_identification": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "speaker identify" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "speaker identify": [ "SpeakerIdentification", "start_speaker_identification" ]
+        }
+    },
+    "speech_stop_speaker_identification": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "stop speaker identify" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "stop speaker identify": [ "SpeakerIdentification", "stop_speaker_identification" ]
+        }
+    },
+    "speech_remove_locked_speaker": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "remove locked speaker" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "remove locked speaker": [ "SpeakerIdentification", "remove_locked_speaker" ]
+        }
+    },
+    "speech_enable_speaker_identify": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "enable speaker mode" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "enable speaker mode": [ "SpeakerIdentification", "enable_speaker_identify" ]
+        }
+    },
+    "speech_disable_speaker_identify": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "disable speaker mode" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "disable speaker mode": [ "SpeakerIdentification", "disable_speaker_identify" ]
+        }
+    },
+
+
+    "speech_hotkey_go_left": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "go left",
+            "hotkey_combo": [ "home" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "go left": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_go_right": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "go right",
+            "hotkey_combo": [ "end" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "go right": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_remove": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "remove",
+            "hotkey_combo": [ "delete" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "remove": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_close": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "close window",
+            "hotkey_combo": [ "alt", "f4" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "close window": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_window_minimize": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "minimize",
+            "hotkey_combo": [ "win", "down" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "minimize": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_window_maximize": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "maximize",
+            "hotkey_combo": [ "win", "up" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "maximize": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_window_maximize_left": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "maximize left",
+            "hotkey_combo": [ "win", "left" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "maximize left": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_window_maximize_right": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "maximize right",
+            "hotkey_combo": [ "win", "right" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "maximize right": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_windows_explorer_files": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "files",
+            "hotkey_combo": [ "win", "e" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "files": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_windows_screenshot": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "screenshot",
+            "hotkey_combo": [ "alt", "printscreen" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "screenshot": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_save": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "save",
+            "hotkey_combo": [ "ctrl", "s" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "save": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_paste": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "paste",
+            "hotkey_combo": [ "ctrl", "v" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "paste": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_revert": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "undo",
+            "hotkey_combo": [ "ctrl", "z" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "undo": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_print": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "print",
+            "hotkey_combo": [ "ctrl", "p" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "print": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_full_screen": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "show full screen",
+            "hotkey_combo": [ "ctrl", "f5" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "show full screen": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_new_message": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "new message",
+            "hotkey_combo": [ "ctrl", "n" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "new message": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_teams_mute": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "mute",
+            "hotkey_combo": [ "ctrl", "shift", "m" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "mute": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+
+    "speech_hotkey_vs_redo": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "redo",
+            "hotkey_combo": [ "ctrl", "y" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "redo": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_find": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "find",
+            "hotkey_combo": [ "ctrl", "f" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "find": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_new_file": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "new file",
+            "hotkey_combo": [ "ctrl", "n" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "new file": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_open_file": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "open file",
+            "hotkey_combo": [ "ctrl", "o" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "open file": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_new_project": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "new project",
+            "hotkey_combo": [ "ctrl", "shift", "n" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "new project": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_open_project": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "open project",
+            "hotkey_combo": [ "ctrl", "shift", "o" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "open project": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_go_to_line": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "go to line",
+            "hotkey_combo": [ "ctrl", "g" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "go to line": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_comment_line": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "comment line",
+            "hotkey_combo": [ "ctrl", "k", "c" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "comment line": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_build_solution": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "build solution",
+            "hotkey_combo": [ "ctrl", "shift", "b" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "build solution": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_start_debug": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "start debug",
+            "hotkey_combo": [ "f5" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "start debug": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_stop_debug": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "stop debug",
+            "hotkey_combo": [ "shift", "f5" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "stop debug": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_start_without_debug": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "start without debug",
+            "hotkey_combo": [ "ctrl", "f5" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "start without debug": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_save_all_files": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "save all files",
+            "hotkey_combo": [ "ctrl", "shift", "s" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "save all files": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_cancel_selection": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "council selection",
+            "hotkey_combo": [ "esc" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "council selection": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_cancel_process": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "council process",
+            "hotkey_combo": [ "ctrl", "fn", "pause" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "council process": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_finding_files": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "finding files",
+            "hotkey_combo": [ "ctrl", "shift", "f" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "finding files": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_find_files": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "find in files",
+            "hotkey_combo": [ "ctrl", "shift", "f" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "find in files": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_solution_explorer": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "solution explorer",
+            "hotkey_combo": [ "ctrl", "alt", "l" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "solution explorer": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_output_window": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "output window",
+            "hotkey_combo": [ "ctrl", "alt", "o" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "output window": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_replace": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "replace",
+            "hotkey_combo": [ "ctrl", "h" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "replace": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_rename": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "rename",
+            "hotkey_combo": [ "ctrl", "r" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "rename": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_show_exceptions": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "show exceptions",
+            "hotkey_combo": [ "ctrl", "alt", "e" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "show exceptions": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_hotkey_vs_compile": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "compile",
+            "hotkey_combo": [ "ctrl", "f7" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "compile": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+
+    "speech_keyboard_vs_visual_guidance_open_all_windows": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "open all windows" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "open all windows": [ "Keyboard", "vs_open_all_windows" ]
+        }
+    },
+    "speech_keyboard_vs_visual_guidance_maximize": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "maximize" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "maximize": [ "Keyboard", "vs_maximize" ]
+        }
+    },
+    "speech_keyboard_vs_visual_guidance_minimize": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "minimize" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "minimize": [ "Keyboard", "vs_minimize" ]
+        }
+    },
+    "speech_keyboard_vs_visual_guidance_zoom_in": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "zoom in" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "zoom in": [ "Keyboard", "vs_zoom_in" ]
+        }
+    },
+    "speech_keyboard_vs_visual_guidance_zoom_out": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "zoom out" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "zoom out": [ "Keyboard", "vs_zoom_out" ]
+        }
+    },
+    "speech_keyboard_vs_visual_guidance_reset_zoom": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "reset zoom" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "reset zoom": [ "Keyboard", "vs_reset_zoom" ]
+        }
+    },
+    "speech_keyboard_vs_visual_guidance_insert_to_editor": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "insert to editor" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "insert to editor": [ "Keyboard", "vs_insert_to_editor" ]
+        }
+    },
+    "speech_keyboard_vs_visual_guidance_copy_to_clipboard": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "copy to clipboard" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "copy to clipboard": [ "Keyboard", "vs_copy_to_clipboard" ]
+        }
+    },
+
+    "speech_keyboard_hashtag": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "hashtag" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "hashtag": [ "Keyboard", "hashtag" ]
+        }
+    },
+    "speech_keyboard_capital_letters": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "capital letters" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "capital letters": [ "Keyboard", "capital_letters" ]
+        }
+    },
+    "speech_keyboard_space": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "space" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "space": [ "Keyboard", "space" ]
+        }
+    },
+    "speech_keyboard_right_arrow": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "right" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "right": [ "Keyboard", "right_arrow" ]
+        }
+    },
+    "speech_keyboard_left_arrow": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "left" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "left": [ "Keyboard", "left_arrow" ]
+        }
+    },
+    "speech_keyboard_up_arrow": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "up" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "up": [ "Keyboard", "up_arrow" ]
+        }
+    },
+    "speech_keyboard_down_arrow": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "down" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "down": [ "Keyboard", "down_arrow" ]
+        }
+    },
+    "speech_keyboard_volume_up": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "volume up" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "volume up": [ "Keyboard", "volume_up" ]
+        }
+    },
+    "speech_keyboard_volume_down": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "volume down" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "volume down": [ "Keyboard", "volume_down" ]
+        }
+    },
+    "speech_keyboard_windows_startmenu": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "start menu"
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "start menu": [ "Keyboard", "windows_key" ]
+        }
+    },
+    "speech_keyboard_enter": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "enter" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "enter": [ "Keyboard", "enter" ]
+        }
+    },
+    "speech_keyboard_escape": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "escape" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "escape": [ "Keyboard", "escape" ]
+        }
+    },
+    "speech_keyboard_page_up": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "page up" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "page up": [ "Keyboard", "page_up" ]
+        }
+    },
+    "speech_keyboard_page_down": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "page down" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "page down": [ "Keyboard", "page_down" ]
+        }
+    },
+    "speech_keyboard_windows_run": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "windows run" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "windows run": [ "Keyboard", "windows_run" ]
+        }
+    },
+    "speech_keyboard_windows_key": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "windows key" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "windows key": [ "Keyboard", "windows_key" ]
+        }
+    },
+    "speech_keyboard_help": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "help"
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "help": [ "Keyboard", "help" ]
+        }
+    },
+    "speech_keyboard_macros": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "macros" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "macros": [ "Keyboard", "macros" ]
+        }
+    },
+    "speech_keyboard_settings": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "settings" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "settings": [ "Keyboard", "settings" ]
+        }
+    },
+    "speech_keyboard_cut": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "cut" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "cut": [ "Keyboard", "cut" ]
+        }
+    },
+    "speech_keyboard_copy": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "copy" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "copy": [ "Keyboard", "copy" ]
+        }
+    },
+    "speech_keyboard_backspace": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "back" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "back": [ "Keyboard", "backspace" ]
+        }
+    },
+    "speech_keyboard_exit_program": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "exit program" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "exit program": [ "Keyboard", "exit_program_MI" ]
+        }
+    },
+    "speech_keyboard_quit_program": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "quit program" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "quit program": [ "Keyboard", "exit_program_MI" ]
+        }
+    },
+    "speech_keyboard_switch": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "switch" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "switch": [ "Keyboard", "switch" ]
+        }
+    },
+  "speech_left_press": {
+    "type": "SpeechEvent",
+    "args": { "phrase": "hold left" },
+    "bodypart_names_to_type": {
+      "speech": "speech"
+    },
+    "triggers": {
+      "hold left": [ "DesktopMouse", "left_press" ]
+    }
+  },
+  "speech_left_press_simple": {
+    "type": "SpeechEvent",
+    "args": { "phrase": "hold" },
+    "bodypart_names_to_type": {
+      "speech": "speech"
+    },
+    "triggers": {
+      "hold": [ "DesktopMouse", "left_press" ]
+    }
+  },
+  "speech_left_press_drag": {
+    "type": "SpeechEvent",
+    "args": { "phrase": "drag" },
+    "bodypart_names_to_type": {
+      "speech": "speech"
+    },
+    "triggers": {
+      "drag": [ "DesktopMouse", "left_press" ]
+    }
+  },
+  "speech_left_press_draw": {
+    "type": "SpeechEvent",
+    "args": { "phrase": "draw" },
+    "bodypart_names_to_type": {
+      "speech": "speech"
+    },
+    "triggers": {
+      "draw": [ "DesktopMouse", "left_press" ]
+    }
+  },
+    "speech_left_press_move": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "move"},
+        "bodypart_names_to_type": {
+            "speech": "speech"
+        },
+      "triggers": {
+         "move": [ "DesktopMouse", "left_press" ]
+      }
+    },
+  "speech_left_release": {
+    "type": "SpeechEvent",
+    "args": { "phrase": "release left" },
+    "bodypart_names_to_type": {
+      "speech": "speech"
+    },
+    "triggers": {
+      "release left": [ "DesktopMouse", "left_release" ]
+    }
+  },
+  "speech_left_release_simple": {
+    "type": "SpeechEvent",
+    "args": { "phrase": "release" },
+    "bodypart_names_to_type": {
+      "speech": "speech"
+    },
+    "triggers": {
+      "release": [ "DesktopMouse", "left_release" ]
+    }
+  },
+    "speech_left_release_stop": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "stop" },
+        "bodypart_names_to_type": {
+            "speech": "speech"
+        },
+        "triggers": {
+            "stop": [ "DesktopMouse", "left_release" ]
+        }
+    },
+    "speech_right_press": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "hold right" },
+        "bodypart_names_to_type": {
+            "speech": "speech"
+        },
+        "triggers": {
+            "hold right": [ "DesktopMouse", "right_press" ]
+        }
+    },
+    "speech_right_release": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "release right" },
+        "bodypart_names_to_type": {
+            "speech": "speech"
+        },
+        "triggers": {
+            "release right": [ "DesktopMouse", "right_release" ]
+        }
+    },
+    "speech_next_mode": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "next mode" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "next mode": [ "IterativeModeChange", "" ]
+        }
+    },
+    "speech_clicking": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "click" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "click": [ "DesktopMouse", "left_click" ]
+        }
+    },
+    "speech_right_clicking": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "right click" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "right click": [ "DesktopMouse", "right_click" ]
+        }
+    },
+    "speech_double_clicking": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "double click" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "double click": [ "DesktopMouse", "double_click" ]
+        }
+    },
+    "speech_eye_stop": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "stop" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "stop": [ "EditConfigFile", "off_eye_gaze" ]
+        }
+    },
+    "speech_eye_start": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "start" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "start": [ "EditConfigFile", "on_eye_gaze" ]
+        }
+    },
+    "speech_eye_magnet_go": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "go" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "go": [ "EditConfigFile", "on_off_eye_go" ]
+        }
+    },
+    "speech_cal_change": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "reset" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "reset": [ "EditConfigFile", "on_off_cal" ]
+        }
+    },
+    "speech_head_nose_move_nosebox": {
+        "type": "MoveNoseBoxEvent",
+        "args": { "phrase": "butterfly" },
+        "bodypart_names_to_type": {
+            "speech": "speech",
+            "head": "head"
+        },
+        "triggers": {
+            "butterfly": [ "NoseBox", "update_nose_box_centre" ]
+        }
+    },
+    "speech_head_nose_left_range_nosebox": {
+        "type": "BoundariesNoseBoxEvent",
+        "args": {
+            "phrase": "left range",
+            "direction": "left"
+        },
+        "bodypart_names_to_type": {
+            "speech": "speech",
+            "head": "head"
+        },
+        "triggers": {
+            "left range": [ "NoseBox", "bound_nose_box" ]
+        }
+    },
+    "speech_head_nose_right_range_nosebox": {
+        "type": "BoundariesNoseBoxEvent",
+        "args": {
+            "phrase": "right range",
+            "direction": "right"
+        },
+        "bodypart_names_to_type": {
+            "speech": "speech",
+            "head": "head"
+        },
+        "triggers": {
+            "right range": [ "NoseBox", "bound_nose_box" ]
+        }
+    },
+    "speech_head_nose_reset_nosebox": {
+        "type": "BoundariesNoseBoxEvent",
+        "args": {
+            "phrase": "reset ranges",
+            "direction": "reset"
+        },
+        "bodypart_names_to_type": {
+            "speech": "speech",
+            "head": "head"
+        },
+        "triggers": {
+            "reset ranges": [ "NoseBox", "bound_nose_box" ]
+        }
+    },
+    "speech_ibm_polution_game_tag": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "tag" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "tag": [ "Keyboard", "ibm_game_e" ]
+        }
+    },
+    "speech_ibm_polution_game_remove": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "remove" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "remove": [ "Keyboard", "ibm_game_e" ]
+        }
+    },
+    "speech_ibm_polution_game_change": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "change" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "change": [ "Keyboard", "ibm_game_q" ]
+        }
+    },
+    "speech_spiderman_shoot": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "shoot" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "shoot": [ "Keyboard", "spiderman_shoot" ]
+        }
+    },
+    "speech_spiderman_throw": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "throw" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "throw": [ "Keyboard", "spiderman_throw" ]
+        }
+    },
+    "speech_spiderman_zip": {
+        "type": "SpeechEvent",
+        "args": {
+          "phrase": "zip",
+          "hotkey_combo": [ "c" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+          "zip": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_spiderman_step": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "step" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "step": [ "Keyboard", "spiderman_step" ]
+        }
+    },
+    "speech_spiderman_dodge": {
+        "type": "SpeechEvent",
+        "args": {
+          "phrase": "dodge",
+          "hotkey_combo": [ "ctrl" ]
+        },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+          "dodge": [ "Keyboard", "hotkey_combination" ]
+        }
+    },
+    "speech_spiderman_strike": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "strike" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "strike": [ "Keyboard", "spiderman_strike" ]
+        }
+    },
+    "speech_spiderman_run": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "run" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "run": [ "Keyboard", "spiderman_run" ]
+        }
+    },
+    "speech_spiderman_walk": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "walk" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "walk": [ "Keyboard", "spiderman_walk" ]
+        }
+    },
+    "speech_spiderman_swing": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "swing" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+          "swing": [ "Keyboard", "spiderman_swing" ]
+        }
+    },
+    "speech_spiderman_jump": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "jump" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "jump": [ "Keyboard", "spiderman_jump" ]
+        }
+    },
+    "speech_spiderman_stand": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "stand" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+          "stand": [ "Keyboard", "spiderman_stand" ]
+        }
+    },
+    "speech_spiderman_hit": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "hit" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+          "hit": [ "Keyboard", "spiderman_hit" ]
+        }
+    },
+    "speech_spiderman_continue": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "continue" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+          "continue": [ "Keyboard", "spiderman_jump" ]
+        }
+    },
+    "speech_spiderman_health": {
+        "type": "SpeechEvent",
+        "args": {"phrase": "health"},
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+          "health": [ "Keyboard", "spiderman_health" ]
+        }
+    },
+
+    "speech_spiderman_finish": {
+        "type": "SpeechEvent",
+        "args": {"phrase": "finish"},
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+          "finish": [ "Keyboard", "spiderman_finish" ]
+        }
+    },
+    "speech_inventory_1": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "one" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "one": [ "Keyboard", "game_one" ]
+        }
+    },
+
+    "speech_inventory_2": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "two" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "two": [ "Keyboard", "game_two" ]
+        }
+    },
+
+    "speech_inventory_3": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "three" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "three": [ "Keyboard", "game_three" ]
+        }
+    },
+
+    "speech_inventory_4": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "four" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "four": [ "Keyboard", "game_four" ]
+        }
+    },
+
+    "speech_inventory_5": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "five" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "five": [ "Keyboard", "game_five" ]
+        }
+    },
+
+    "speech_inventory_6": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "six" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "six": [ "Keyboard", "game_six" ]
+        }
+    },
+
+    "speech_inventory_7": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "seven" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "seven": [ "Keyboard", "game_seven" ]
+        }
+    },
+
+    "speech_inventory_8": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "eight" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "eight": [ "Keyboard", "game_eight" ]
+        }
+    },
+
+    "speech_inventory_9": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "nine" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "nine": [ "Keyboard", "game_nine" ]
+        }
+    },
+
+    "speech_game_open": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "open" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "open": [ "Keyboard", "game_press_e" ]
+        }
+    },
+
+    "speech_game_sneak": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "sneak" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "sneak": [ "Keyboard", "game_sneak" ]
+        }
+    },
+
+    "speech_game_sneakUp": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "up" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "up": [ "Keyboard", "game_sneakUp" ]
+        }
+    },
+
+    "speech_game_switch": {
+        "type": "SpeechEvent",
+        "args": {
+            "phrase": "switch" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "switch": [ "Keyboard", "game_press_f" ]
+        }
+    },
+    "speech_game_walk": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "walk" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "walk": [ "Keyboard", "game_walk" ]
+        }
+    },
+    "speech_game_run": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "run" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "run": [ "Keyboard", "game_run" ]
+        }
+    },
+    "speech_game_jump": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "jump" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "jump": [ "Keyboard", "game_jump" ]
+        }
+    },
+    "speech_game_throw": {
+        "type": "SpeechEvent",
+        "args": { "phrase": "throw" },
+        "bodypart_names_to_type": { "speech": "speech" },
+        "triggers": {
+            "throw": [ "Keyboard", "game_press_q" ]
+        }
+    },
+
+    "hand_to_idle_mode_left_hand": {
+        "type": "IdleStateChangeEvent",
+        "args": { "currently_idle": false },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "idle": [ "ModeChange", "idle_left_hand" ]
+        }
+    },
+    "hand_to_idle_mode_right_hand": {
+        "type": "IdleStateChangeEvent",
+        "args": { "currently_idle": false },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "idle": [ "ModeChange", "idle_right_hand" ]
+        }
+    },
+    "hand_to_active_mode_left_hand": {
+        "type": "IdleStateChangeEvent",
+        "args": { "currently_idle": true },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "active": [ "ModeChange", "basic_left_hand_speech" ]
+        }
+    },
+    "hand_to_active_mode_right_hand": {
+        "type": "IdleStateChangeEvent",
+        "args": { "currently_idle": true },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "active": [ "ModeChange", "basic_right_hand_speech" ]
+        }
+    },
+    "general_rocknroll_next_mode": {
+        "type": "GesturesActiveEvent",
+        "args": {
+            "desired_gesture_states": {
+                "dom_hand": { "rocknroll": true },
+                "off_hand": { "rocknroll": true }
+            }
+        },
+        "bodypart_names_to_type": {
+            "Left": "dom_hand",
+            "Right": "off_hand"
+        },
+        "triggers": {
+            "active": [ "IterativeModeChange", "" ]
+        }
+    },
+    "hand_open_keyboard_right_hand": {
+        "type": "GesturesActiveEvent",
+        "args": {
+            "desired_gesture_states": {
+                "dom_hand": { "peace": true },
+                "off_hand": {}
+            }
+        },
+        "bodypart_names_to_type": {
+            "Right": "dom_hand",
+            "Left": "off_hand"
+        },
+        "triggers": {
+            "active": [ "ModeChange", "keyboard_hand" ]
+        }
+    },
+    "hand_open_keyboard_left_hand": {
+        "type": "GesturesActiveEvent",
+        "args": {
+            "desired_gesture_states": {
+                "dom_hand": { "peace": true },
+                "off_hand": {}
+            }
+        },
+        "bodypart_names_to_type": {
+            "Left": "dom_hand",
+            "Right": "off_hand"
+        },
+        "triggers": {
+            "active": [ "ModeChange", "keyboard_hand" ]
+        }
+    },
+    "hand_mouse_switch_right_hand": {
+        "type": "GesturesActiveEvent",
+        "args": {
+            "desired_gesture_states": {
+                "dom_hand": { "gun": true },
+                "off_hand": {}
+            }
+        },
+        "bodypart_names_to_type": {
+            "Right": "dom_hand",
+            "Left": "off_hand"
+        },
+        "triggers": {
+            "active": [ "ModeChange", "basic_hand" ]
+        }
+    },
+    "hand_mouse_switch_left_hand": {
+        "type": "GesturesActiveEvent",
+        "args": {
+            "desired_gesture_states": {
+                "dom_hand": { "gun": true },
+                "off_hand": {}
+            }
+        },
+        "bodypart_names_to_type": {
+            "Left": "dom_hand",
+            "Right": "off_hand"
+        },
+        "triggers": {
+            "active": [ "ModeChange", "basic_hand" ]
+        }
+    },
+    "hand_palm_height_change_aoi_resize_left_hand": {
+        "type": "PalmHeightChangeEvent",
+        "args": {},
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "level_change": [ "AreaOfInterest", "update_spacing_level" ]
+        }
+    },
+    "hand_palm_height_change_aoi_resize_right_hand": {
+        "type": "PalmHeightChangeEvent",
+        "args": {},
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "level_change": [ "AreaOfInterest", "update_spacing_level" ]
+        }
+    },
+    "hand_palm_center_move_mouse_left_hand": {
+        "type": "HandActiveEvent",
+        "args": {},
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "move": [ "AOIMouse", "move_cursor" ]
+        }
+    },
+    "hand_depth_click_left_hand": {
+        "type": "HandDepthClickEvent",
+        "args": {},
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "move": [ "AOIMouse", "move_cursor" ],
+            "click": [ "AOIMouse", "left_click" ]
+        }
+    },
+    "hand_palm_center_move_mouse_right_hand": {
+        "type": "HandActiveEvent",
+        "args": {},
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "move": [ "AOIMouse", "move_cursor" ]
+        }
+    },
+    "hand_palm_center_move_touch_left_hand": {
+        "type": "HandActiveEvent",
+        "args": {},
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "move": [ "DesktopTouch", "move_cursor" ]
+        }
+    },
+    "hand_palm_center_move_touch_right_hand": {
+        "type": "HandActiveEvent",
+        "args": {},
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "move": [ "DesktopTouch", "move_cursor" ]
+        }
+    },
+    "in_air_keyboard_active": {
+        "type": "KeyboardActiveEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "Right": "dom_hand",
+            "Left": "off_hand"
+        },
+        "triggers": {
+            "move": [ "InAirKeyboard", "key_selection" ],
+            "clear": [ "InAirKeyboard", "clear" ]
+        }
+    },
+    "in_air_keyboard_click": {
+        "type": "KeyboardClickEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "Right": "dom_hand",
+            "Left": "off_hand"
+        },
+        "triggers": {
+            "click": [ "InAirKeyboard", "click" ],
+            "release": [ "InAirKeyboard", "release" ]
+        }
+    },
+    "pen_active_right_hand": {
+        "type": "HandActiveEvent",
+        "args": {},
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "move": [ "DesktopPenInput", "move_cursor" ]
+        }
+    },
+    "pen_active_left_hand": {
+        "type": "HandActiveEvent",
+        "args": {},
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "move": [ "DesktopPenInput", "move_cursor" ]
+        }
+    },
+    "pen_index_pinch_right_hand": {
+        "type": "PenDragEvent",
+        "args": { "gesture_type": "index_pinch" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "DesktopPenInput", "press" ],
+            "release": [ "DesktopPenInput", "release" ],
+            "update": [ "DesktopPenInput", "update_pen" ],
+            "update_pressure": [ "DesktopPenInput", "update_pressure" ]
+        }
+    },
+    "pen_index_pinch_left_hand": {
+        "type": "PenDragEvent",
+        "args": { "gesture_type": "index_pinch" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "DesktopPenInput", "press" ],
+            "release": [ "DesktopPenInput", "release" ],
+            "update": [ "DesktopPenInput", "update_pen" ],
+            "update_pressure": [ "DesktopPenInput", "update_pressure" ]
+        }
+    },
+    "pen_pinch_hold_right_hand": {
+        "type": "PenDragEvent",
+        "args": { "gesture_type": "pen_hold" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "DesktopPenInput", "press" ],
+            "release": [ "DesktopPenInput", "release" ],
+            "update": [ "DesktopPenInput", "update_pen" ],
+            "update_pressure": [ "DesktopPenInput", "update_pressure" ]
+        }
+    },
+    "pen_pinch_hold_left_hand": {
+        "type": "PenDragEvent",
+        "args": { "gesture_type": "pen_hold" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "DesktopPenInput", "press" ],
+            "release": [ "DesktopPenInput", "release" ],
+            "update": [ "DesktopPenInput", "update_pen" ],
+            "update_pressure": [ "DesktopPenInput", "update_pressure" ]
+        }
+    },
+    "pen_index_pinch_eraser_left_hand": {
+        "type": "PenDragEvent",
+        "args": { "gesture_type": "index_pinch" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "DesktopPenInput", "eraser_activate" ],
+            "release": [ "DesktopPenInput", "eraser_deactivate" ]
+        }
+    },
+    "pen_index_pinch_eraser_right_hand": {
+        "type": "PenDragEvent",
+        "args": { "gesture_type": "index_pinch" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "DesktopPenInput", "eraser_activate" ],
+            "release": [ "DesktopPenInput", "eraser_deactivate" ]
+        }
+    },
+    "hand_index_pinch_left_press_left_hand": {
+        "type": "SingleHandExclusiveClickPressEvent",
+        "args": { "gesture_type": "index_pinch" },
+        "bodypart_names_to_type": {
+            "Left": "hand",
+            "Right": "off_hand"
+        },
+        "triggers": {
+            "press": [ "AOIMouse", "left_press" ],
+            "release": [ "AOIMouse", "left_release" ]
+        }
+    },
+    "hand_index_pinch_left_press_right_hand": {
+        "type": "SingleHandExclusiveClickPressEvent",
+        "args": { "gesture_type": "index_pinch" },
+        "bodypart_names_to_type": {
+            "Right": "hand",
+            "Left": "off_hand"
+        },
+        "triggers": {
+            "press": [ "AOIMouse", "left_press" ],
+            "release": [ "AOIMouse", "left_release" ]
+        }
+    },
+    "hand_index_pinch_touch_press_left_hand": {
+        "type": "TouchPressEvent",
+        "args": { "gesture_type": "index_pinch" },
+        "bodypart_names_to_type": {
+            "Left": "dom_hand",
+            "Right": "off_hand"
+        },
+        "triggers": {
+            "click": [ "DesktopTouch", "tap" ],
+            "press": [ "DesktopTouch", "press" ],
+            "release": [ "DesktopTouch", "release" ]
+        }
+    },
+    "hand_pinky_pinch_triple_swipe_right_hand": {
+        "type": "TouchPressEvent",
+        "args": { "gesture_type": "pinky_pinch" },
+        "bodypart_names_to_type": {
+            "Right": "dom_hand",
+            "Left": "off_hand"
+        },
+        "triggers": {
+            "click": [ "DesktopTouch", "tap" ],
+            "press": [ "DesktopTouch", "triple_swipe" ],
+            "release": [ "DesktopTouch", "release" ]
+        }
+    },
+    "hand_pinky_pinch_triple_swipe_left_hand": {
+        "type": "TouchPressEvent",
+        "args": { "gesture_type": "pinky_pinch" },
+        "bodypart_names_to_type": {
+            "Left": "dom_hand",
+            "Right": "off_hand"
+        },
+        "triggers": {
+            "click": [ "DesktopTouch", "tap" ],
+            "press": [ "DesktopTouch", "triple_swipe" ],
+            "release": [ "DesktopTouch", "release" ]
+        }
+    },
+    "hand_index_pinch_touch_press_right_hand": {
+        "type": "TouchPressEvent",
+        "args": { "gesture_type": "index_pinch" },
+        "bodypart_names_to_type": {
+            "Right": "dom_hand",
+            "Left": "off_hand"
+        },
+        "triggers": {
+            "click": [ "DesktopTouch", "tap" ],
+            "press": [ "DesktopTouch", "press" ],
+            "release": [ "DesktopTouch", "release" ]
+        }
+    },
+    "hand_index_scissor_touch_press_left_hand": {
+        "type": "TouchPressEvent",
+        "args": { "gesture_type": "index_scissor" },
+        "bodypart_names_to_type": {
+            "Left": "dom_hand",
+            "Right": "off_hand"
+        },
+        "triggers": {
+            "click": [ "DesktopTouch", "tap" ],
+            "press": [ "DesktopTouch", "press" ],
+            "release": [ "DesktopTouch", "release" ]
+        }
+    },
+    "hand_index_scissor_touch_press_right_hand": {
+        "type": "TouchPressEvent",
+        "args": { "gesture_type": "index_scissor" },
+        "bodypart_names_to_type": {
+            "Right": "dom_hand",
+            "Left": "off_hand"
+        },
+        "triggers": {
+            "click": [ "DesktopTouch", "tap" ],
+            "press": [ "DesktopTouch", "press" ],
+            "release": [ "DesktopTouch", "release" ]
+        }
+    },
+    "hand_index_pulldown_touch_press_left_hand": {
+        "type": "TouchPressEvent",
+        "args": { "gesture_type": "index_pulldown" },
+        "bodypart_names_to_type": {
+            "Left": "dom_hand",
+            "Right": "off_hand"
+        },
+        "triggers": {
+            "click": [ "DesktopTouch", "tap" ],
+            "press": [ "DesktopTouch", "press" ],
+            "release": [ "DesktopTouch", "release" ]
+        }
+    },
+    "hand_index_pulldown_touch_press_right_hand": {
+        "type": "TouchPressEvent",
+        "args": { "gesture_type": "index_pulldown" },
+        "bodypart_names_to_type": {
+            "Right": "dom_hand",
+            "Left": "off_hand"
+        },
+        "triggers": {
+            "click": [ "DesktopTouch", "tap" ],
+            "press": [ "DesktopTouch", "press" ],
+            "release": [ "DesktopTouch", "release" ]
+        }
+    },
+    "hand_middle_pinch_right_press_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "middle_pinch" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "AOIMouse", "right_press" ],
+            "release": [ "AOIMouse", "right_release" ]
+        }
+    },
+    "hand_middle_pinch_right_press_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "middle_pinch" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "AOIMouse", "right_press" ],
+            "release": [ "AOIMouse", "right_release" ]
+        }
+    },
+    "hand_pinky_pinch_monitor_change_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "pinky_pinch" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "MonitorTracker", "change_monitor" ]
+        }
+    },
+    "hand_pinky_pinch_monitor_change_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "pinky_pinch" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "MonitorTracker", "change_monitor" ]
+        }
+    },
+    "hand_rabbit_monitor_change_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "rabbit" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "MonitorTracker", "change_monitor" ]
+        }
+    },
+    "hand_rabbit_monitor_change_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "rabbit" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "MonitorTracker", "change_monitor" ]
+        }
+    },
+    "hand_double_pinch_double_click_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "double_pinch" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "click": [ "AOIMouse", "double_click" ]
+        }
+    },
+    "hand_double_pinch_double_click_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "double_pinch" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "click": [ "AOIMouse", "double_click" ]
+        }
+    },
+    "hand_double_pinch_left_press_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "double_pinch" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "AOIMouse", "left_press" ],
+            "release": [ "AOIMouse", "left_release" ]
+        }
+    },
+    "hand_double_pinch_left_press_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "double_pinch" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "AOIMouse", "left_press" ],
+            "release": [ "AOIMouse", "left_release" ]
+        }
+    },
+    "hand_ring_pinch_right_press_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "ring_pinch" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "AOIMouse", "right_press" ],
+            "release": [ "AOIMouse", "right_release" ]
+        }
+    },
+    "hand_ring_pinch_right_press_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "ring_pinch" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "AOIMouse", "right_press" ],
+            "release": [ "AOIMouse", "right_release" ]
+        }
+    },
+    "hand_middle_pinch_left_click_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "middle_pinch" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "click": [ "AOIMouse", "left_click" ]
+        }
+    },
+    "hand_middle_pinch_left_click_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "middle_pinch" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "click": [ "AOIMouse", "left_click" ]
+        }
+    },
+    "hand_middle_pinch_right_click_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "middle_pinch" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "click": [ "AOIMouse", "right_click" ]
+        }
+    },
+    "hand_middle_pinch_right_click_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "middle_pinch" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "click": [ "AOIMouse", "right_click" ]
+        }
+    },
+    "hand_ring_pinch_double_click_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "ring_pinch" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "click": [ "AOIMouse", "double_click" ]
+        }
+    },
+    "hand_ring_pinch_double_click_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "ring_pinch" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "click": [ "AOIMouse", "double_click" ]
+        }
+    },
+    "hand_pinky_pinch_right_click_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "pinky_pinch" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "click": [ "AOIMouse", "right_click" ]
+        }
+    },
+    "hand_pinky_pinch_right_click_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "pinky_pinch" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "click": [ "AOIMouse", "right_click" ]
+        }
+    },
+    "hand_index_pulldown_left_press_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "index_pulldown" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "AOIMouse", "left_press" ],
+            "release": [ "AOIMouse", "left_release" ]
+        }
+    },
+    "hand_index_pulldown_left_press_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "index_pulldown" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "AOIMouse", "left_press" ],
+            "release": [ "AOIMouse", "left_release" ]
+        }
+    },
+    "hand_index_scissor_left_press_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "index_scissor" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "AOIMouse", "left_press" ],
+            "release": [ "AOIMouse", "left_release" ]
+        }
+    },
+    "hand_index_scissor_left_press_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "index_scissor" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "AOIMouse", "left_press" ],
+            "release": [ "AOIMouse", "left_release" ]
+        }
+    },
+    "hand_thumb_scissor_right_press_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "thumb_scissor" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "AOIMouse", "right_press" ],
+            "release": [ "AOIMouse", "right_release" ]
+        }
+    },
+    "hand_thumb_scissor_right_press_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "thumb_scissor" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "AOIMouse", "right_press" ],
+            "release": [ "AOIMouse", "right_release" ]
+        }
+    },
+    "hand_double_scissor_doubleclick_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "double_scissor" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "click": [ "AOIMouse", "double_click" ]
+        }
+    },
+    "hand_double_scissor_doubleclick_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "double_scissor" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "click": [ "AOIMouse", "double_click" ]
+        }
+    },
+    "hand_fist_doubleclick_left_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "fist" },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "click": [ "AOIMouse", "double_click" ]
+        }
+    },
+    "hand_fist_doubleclick_right_hand": {
+        "type": "ClickPressEvent",
+        "args": { "gesture_type": "fist" },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "click": [ "AOIMouse", "double_click" ]
+        }
+    },
+    "hand_index_middle_scroll_left_hand": {
+        "type": "ScrollEvent",
+        "args": {},
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "scroll": [ "AOIMouse", "scroll" ]
+        }
+    },
+    "hand_index_middle_scroll_right_hand": {
+        "type": "ScrollEvent",
+        "args": {},
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "scroll": [ "AOIMouse", "scroll" ]
+        }
+    },
+    "hand_double_index_pinch_zoom": {
+        "type": "ZoomEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "Left": "dom_hand",
+            "Right": "off_hand"
+        },
+        "triggers": {
+            "zoom": [ "AOIMouse", "zoom" ]
+        }
+    },
+    "hand_drive_left_right": {
+        "type": "HandDriveRotateEvent",
+        "args": {
+            "buttons": {
+                "Left": "a",
+                "Right": "d"
+            },
+            "threshold": 1.5
+        },
+        "bodypart_names_to_type": {
+            "Right": "dom_hand",
+            "Left": "off_hand"
+        },
+        "triggers": {
+            "press": [ "Keyboard", "key_down" ],
+            "release": [ "Keyboard", "key_up" ]
+        }
+    },
+    "hand_drive_forward_backward": {
+        "type": "HandDriveForwardBackwardEvent",
+        "args": {
+            "buttons": {
+                "Up": "w",
+                "Down": "s"
+            },
+            "threshold": 0.35
+        },
+        "bodypart_names_to_type": {
+            "Right": "dom_hand",
+            "Left": "off_hand"
+        },
+        "triggers": {
+            "press": [ "Keyboard", "key_down" ],
+            "release": [ "Keyboard", "key_up" ]
+        }
+    },
+    "hand_drive_up_down": {
+        "type": "HandDriveUpDownEvent",
+        "args": {
+            "buttons": {
+                "Up": "o",
+                "Down": "p"
+            }
+        },
+        "bodypart_names_to_type": {
+            "Right": "dom_hand",
+            "Left": "off_hand"
+        },
+        "triggers": {
+            "press": [ "Keyboard", "key_down" ],
+            "release": [ "Keyboard", "key_up" ]
+        }
+    },
+    "hand_mr_swipe_horizontal_left_hand": {
+        "type": "MRSwipeEvent",
+        "args": {
+            "horizontal": true,
+            "sensitivity": 9,
+            "threshold_min": 0.3,
+            "threshold_max": 0.6
+        },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "left": [ "Keyboard", "left_arrow_press" ],
+            "right": [ "Keyboard", "right_arrow_press" ],
+            "press": [ "Keyboard", "key_press" ]
+        }
+    },
+    "hand_mr_swipe_vertical_left_hand": {
+        "type": "MRSwipeEvent",
+        "args": {
+            "horizontal": false,
+            "sensitivity": 9,
+            "threshold_min": 0.3,
+            "threshold_max": 0.6
+        },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "up": [ "Keyboard", "page_up" ],
+            "down": [ "Keyboard", "page_down" ],
+            "press": [ "Keyboard", "key_press" ]
+        }
+    },
+    "hand_mr_swipe_horizontal_right_hand": {
+        "type": "MRSwipeEvent",
+        "args": {
+            "horizontal": true,
+            "sensitivity": 15,
+            "threshold_min": 0.3,
+            "threshold_max": 0.6
+        },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "left": [ "Keyboard", "left_arrow_press" ],
+            "right": [ "Keyboard", "right_arrow_press" ],
+            "press": [ "Keyboard", "key_press" ]
+        }
+    },
+    "hand_mr_swipe_vertical_right_hand": {
+        "type": "MRSwipeEvent",
+        "args": {
+            "horizontal": false,
+            "sensitivity": 15,
+            "threshold_min": 0.3,
+            "threshold_max": 0.6
+        },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "up": [ "Keyboard", "page_up" ],
+            "down": [ "Keyboard", "page_down" ],
+            "press": [ "Keyboard", "key_press" ]
+        }
+    },
+    "hand_samurai_swipe": {
+        "type": "SamuraiSwipeEvent",
+        "args": { "sensitivity": 0.4 },
+        "bodypart_names_to_type": {
+            "Left": "off_hand",
+            "Right": "dom_hand"
+        },
+        "triggers": {
+            "move": [ "DesktopMouse", "move_cursor" ],
+            "press": [ "DesktopMouse", "left_press" ],
+            "release": [ "DesktopMouse", "left_release" ]
+        }
+    },
+    "hand_spiderman_thwip_left_hand": {
+        "type": "SpidermanThwipEvent",
+        "args": {
+            "buttons": {
+                "thwip_1": "c",
+                "thwip_2": "shiftleft"
+            },
+            "threshold": 0.55,
+            "is_right_hand": false
+        },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "Keyboard", "key_down" ],
+            "release": [ "Keyboard", "key_up" ]
+        }
+    },
+    "hand_spiderman_thwip_right_hand": {
+        "type": "SpidermanThwipEvent",
+        "args": {
+            "buttons": {
+                "thwip_1": "c",
+                "thwip_2": "shiftleft"
+            },
+            "threshold": 0.55,
+            "is_right_hand": true
+        },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "Keyboard", "key_down" ],
+            "release": [ "Keyboard", "key_up" ]
+        }
+    },
+    "extremity_up": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "up" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_arm_left": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "arm_left" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_arm_right": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "arm_right" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_punch_left": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "punch_left" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_punch_right": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "punch_right" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_kick_left": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "kick_left" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_kick_right": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "kick_right" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_left_walking": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "left_walking" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_right_walking": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "right_walking" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_up_walking": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "up_walking" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_down_walking": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "down_walking" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_left_button": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "left_button" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_right_button": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "right_button" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_up_button": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "up_button" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_down_button": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "left_button" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_start_key": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "start_key" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_quit_key": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "quit_key" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_dodge": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "dodge" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_jump": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "jump" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_throw": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "throw" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_strike": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "strike" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_walking_event": {
+        "type": "ExtremityWalkingEvent",
+        "args": {},
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_displays": [ "ExtremityWalkingActions", "set_displays" ],
+            "walking_triggered": [ "ExtremityWalkingActions", "walking_trigger_action" ],
+            "extremity_triggered": [ "ExtremityWalkingActions", "extremity_trigger_action" ],
+            "held": [ "ExtremityWalkingActions", "held_action" ],
+            "walking_released": [ "ExtremityWalkingActions", "walking_release_action" ],
+            "extremity_released": [ "ExtremityWalkingActions", "extremity_release_action" ],
+            "clear": [ "ExtremityWalkingActions", "clear_display" ]
+        }
+    },
+    "extremity_custom_1": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_1" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_custom_2": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_2" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_custom_3": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_3" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_custom_4": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_4" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_custom_5": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_5" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_custom_6": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_6" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_custom_7": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_7" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_custom_8": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_8" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_custom_9": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_9" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_custom_10": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_10" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_custom_11": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_11" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_custom_12": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_12" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_custom_13": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_13" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_custom_14": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_14" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "extremity_custom_15": {
+        "type": "ExtremityTriggerEvent",
+        "args": { "extremity_name": "custom_15" },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_extremity_circles": [ "ExtremityActions", "set_extremity_circles" ],
+            "triggered": [ "ExtremityActions", "trigger_action" ],
+            "held": [ "ExtremityActions", "held_action" ],
+            "released": [ "ExtremityActions", "release_action" ],
+            "clear": [ "ExtremityActions", "clear_extremity_circles" ]
+        }
+    },
+    "exercise_squating": {
+        "type": "ExerciseEvent",
+        "args": {
+            "exercise_name": "squating",
+            "mode": "no_equipment"
+        },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_exercise_display": [ "ExerciseActions", "set_exercise_display" ],
+            "triggered": [ "ExerciseActions", "trigger_action" ],
+            "held": [ "ExerciseActions", "held_action" ],
+            "released": [ "ExerciseActions", "release_action" ],
+            "clear": [ "ExerciseActions", "clear_exercise_display" ]
+        }
+    },
+    "exercise_walking": {
+        "type": "ExerciseEvent",
+        "args": {
+            "exercise_name": "walking",
+            "mode": "no_equipment"
+        },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_exercise_display": [ "ExerciseActions", "set_exercise_display" ],
+            "triggered": [ "ExerciseActions", "trigger_action" ],
+            "held": [ "ExerciseActions", "held_action" ],
+            "released": [ "ExerciseActions", "release_action" ],
+            "clear": [ "ExerciseActions", "clear_exercise_display" ]
+        }
+    },
+    "exercise_bike": {
+        "type": "ExerciseEvent",
+        "args": {
+            "exercise_name": "bike",
+            "mode": "equipment"
+        },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_exercise_display": [ "ExerciseActions", "set_exercise_display" ],
+            "triggered": [ "ExerciseActions", "trigger_action" ],
+            "held": [ "ExerciseActions", "held_action" ],
+            "released": [ "ExerciseActions", "release_action" ],
+            "clear": [ "ExerciseActions", "clear_exercise_display" ]
+        }
+    },
+    "exercise_rowing": {
+        "type": "ExerciseEvent",
+        "args": {
+            "exercise_name": "rowing",
+            "mode": "equipment"
+        },
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_exercise_display": [ "ExerciseActions", "set_exercise_display" ],
+            "triggered": [ "ExerciseActions", "trigger_action" ],
+            "held": [ "ExerciseActions", "held_action" ],
+            "released": [ "ExerciseActions", "release_action" ],
+            "clear": [ "ExerciseActions", "clear_exercise_display" ]
+        }
+    },
+    "gamepad_mode_1_event": {
+        "type": "GamepadMode1Event",
+        "args": {},
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_displays": [ "GamepadActions", "set_displays" ],
+            "walking_triggered": [ "GamepadActions", "walking_trigger_action" ],
+            "extremity_triggered": [ "GamepadActions", "extremity_trigger_action" ],
+            "held": [ "GamepadActions", "held_action" ],
+            "walking_released": [ "GamepadActions", "walking_release_action" ],
+            "extremity_released": [ "GamepadActions", "extremity_release_action" ],
+            "clear": [ "GamepadActions", "clear_display" ]
+        }
+    },
+    "gamepad_mode_2_event": {
+        "type": "GamepadMode2Event",
+        "args": {},
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_displays": [ "GamepadActions", "set_displays" ],
+            "walking_triggered": [ "GamepadActions", "walking_trigger_action" ],
+            "extremity_triggered": [ "GamepadActions", "extremity_trigger_action" ],
+            "held": [ "GamepadActions", "held_action" ],
+            "walking_released": [ "GamepadActions", "walking_release_action" ],
+            "extremity_released": [ "GamepadActions", "extremity_release_action" ],
+            "clear": [ "GamepadActions", "clear_display" ]
+        }
+    },
+    "gamepad_mode_3_event": {
+        "type": "GamepadMode3Event",
+        "args": {},
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_displays": [ "GamepadActions", "set_displays" ],
+            "walking_triggered": [ "GamepadActions", "walking_trigger_action" ],
+            "extremity_triggered": [ "GamepadActions", "extremity_trigger_action" ],
+            "held": [ "GamepadActions", "held_action" ],
+            "walking_released": [ "GamepadActions", "walking_release_action" ],
+            "extremity_released": [ "GamepadActions", "extremity_release_action" ],
+            "clear": [ "GamepadActions", "clear_display" ]
+        }
+    },
+    "pseudovr_mode_1_event": {
+        "type": "PseudoVRMode1Event",
+        "args": {},
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_displays": [ "PseudoVRActions", "set_displays" ],
+            "walking_triggered": [ "PseudoVRActions", "walking_trigger_action" ],
+            "extremity_triggered": [ "PseudoVRActions", "extremity_trigger_action" ],
+            "held": [ "PseudoVRActions", "held_action" ],
+            "walking_released": [ "PseudoVRActions", "walking_release_action" ],
+            "extremity_released": [ "PseudoVRActions", "extremity_release_action" ],
+            "clear": [ "PseudoVRActions", "clear_display" ]
+        }
+    },
+    "pseudovr_mode_2_event": {
+        "type": "PseudoVRMode2Event",
+        "args": {},
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_displays": [ "PseudoVRActions", "set_displays" ],
+            "walking_triggered": [ "PseudoVRActions", "walking_trigger_action" ],
+            "extremity_triggered": [ "PseudoVRActions", "extremity_trigger_action" ],
+            "held": [ "PseudoVRActions", "held_action" ],
+            "walking_released": [ "PseudoVRActions", "walking_release_action" ],
+            "extremity_released": [ "PseudoVRActions", "extremity_release_action" ],
+            "clear": [ "PseudoVRActions", "clear_display" ]
+        }
+    },
+    "pseudovr_mode_3_event": {
+        "type": "PseudoVRMode3Event",
+        "args": {},
+        "bodypart_names_to_type": { "body": "body" },
+        "triggers": {
+            "set_displays": [ "PseudoVRActions", "set_displays" ],
+            "walking_triggered": [ "PseudoVRActions", "walking_trigger_action" ],
+            "extremity_triggered": [ "PseudoVRActions", "extremity_trigger_action" ],
+            "held": [ "PseudoVRActions", "held_action" ],
+            "walking_released": [ "PseudoVRActions", "walking_release_action" ],
+            "extremity_released": [ "PseudoVRActions", "extremity_release_action" ],
+            "clear": [ "PseudoVRActions", "clear_display" ]
+        }
+    },
+
+    "joystick_dpad_up": {
+        "type": "JoystickButtonPressEvent",
+        "args": {
+            "button_name": "up",
+            "gesture_type": "ring_fold"
+        },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "GamingJoystick", "press_action" ],
+            "release": [ "GamingJoystick", "release_action" ]
+        }
+    },
+    "joystick_dpad_down": {
+        "type": "JoystickButtonPressEvent",
+        "args": {
+            "button_name": "down",
+            "gesture_type": "middle_fold"
+        },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "GamingJoystick", "press_action" ],
+            "release": [ "GamingJoystick", "release_action" ]
+        }
+    },
+    "joystick_dpad_left": {
+        "type": "JoystickButtonPressEvent",
+        "args": {
+            "button_name": "left",
+            "gesture_type": "pinky_fold"
+        },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "GamingJoystick", "press_action" ],
+            "release": [ "GamingJoystick", "release_action" ]
+        }
+    },
+    "joystick_dpad_right": {
+        "type": "JoystickButtonPressEvent",
+        "args": {
+            "button_name": "right",
+            "gesture_type": "index_fold"
+        },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "GamingJoystick", "press_action" ],
+            "release": [ "GamingJoystick", "release_action" ]
+        }
+    },
+    "joystick_shoulder_left": {
+        "type": "JoystickButtonPressEvent",
+        "args": {
+            "button_name": "s_left",
+            "gesture_type": "thumb_fold"
+        },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "GamingJoystick", "press_action" ],
+            "release": [ "GamingJoystick", "release_action" ]
+        }
+    },
+    "joystick_shoulder_right": {
+        "type": "JoystickButtonPressEvent",
+        "args": {
+            "button_name": "s_right",
+            "gesture_type": "thumb_fold"
+        },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "GamingJoystick", "press_action" ],
+            "release": [ "GamingJoystick", "release_action" ]
+        }
+    },
+    "joystick_button_a": {
+        "type": "JoystickButtonPressEvent",
+        "args": {
+            "button_name": "a",
+            "gesture_type": "middle_fold"
+        },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "GamingJoystick", "press_action" ],
+            "release": [ "GamingJoystick", "release_action" ]
+        }
+    },
+    "joystick_button_b": {
+        "type": "JoystickButtonPressEvent",
+        "args": {
+            "button_name": "b",
+            "gesture_type": "pinky_fold"
+        },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "GamingJoystick", "press_action" ],
+            "release": [ "GamingJoystick", "release_action" ]
+        }
+    },
+    "joystick_button_x": {
+        "type": "JoystickButtonPressEvent",
+        "args": {
+            "button_name": "x",
+            "gesture_type": "index_fold"
+        },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "GamingJoystick", "press_action" ],
+            "release": [ "GamingJoystick", "release_action" ]
+        }
+    },
+    "joystick_button_y": {
+        "type": "JoystickButtonPressEvent",
+        "args": {
+            "button_name": "y",
+            "gesture_type": "ring_fold"
+        },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "GamingJoystick", "press_action" ],
+            "release": [ "GamingJoystick", "release_action" ]
+        }
+    },
+    "joystick_button_start": {
+        "type": "JoystickButtonPressEvent",
+        "args": {
+            "button_name": "start",
+            "gesture_type": "pinky_pinch"
+        },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "press": [ "GamingJoystick", "press_action" ],
+            "release": [ "GamingJoystick", "release_action" ]
+        }
+    },
+    "joystick_button_back": {
+        "type": "JoystickButtonPressEvent",
+        "args": {
+            "button_name": "back",
+            "gesture_type": "pinky_pinch"
+        },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "press": [ "GamingJoystick", "press_action" ],
+            "release": [ "GamingJoystick", "release_action" ]
+        }
+    },
+    "joystick_stick_left": {
+        "type": "JoystickWristEvent",
+        "args": {
+            "analog_name": "sticks",
+            "gesture_type": "stretched",
+            "switch": "on",
+            "mode": "default"
+        },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "stick_move": [ "GamingJoystick", "joystick_left_move" ]
+        }
+    },
+    "joystick_stick_right": {
+        "type": "JoystickWristEvent",
+        "args": {
+            "analog_name": "sticks",
+            "gesture_type": "stretched",
+            "switch": "off",
+            "mode": "default"
+        },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "stick_move": [ "GamingJoystick", "joystick_right_move" ]
+        }
+    },
+    "joystick_triggers_left": {
+        "type": "JoystickWristEvent",
+        "args": {
+            "analog_name": "triggers",
+            "gesture_type": "stretched",
+            "switch": "off",
+            "mode": "swap"
+        },
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "joystick_left_trig": [ "GamingJoystick", "joystick_left_trigger" ],
+            "joystick_right_trig": [ "GamingJoystick", "joystick_right_trigger" ]
+        }
+    },
+    "joystick_triggers_right": {
+        "type": "JoystickWristEvent",
+        "args": {
+            "analog_name": "triggers",
+            "gesture_type": "stretched",
+            "switch": "on",
+            "mode": "swap"
+        },
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "joystick_left_trig": [ "GamingJoystick", "joystick_left_trigger" ],
+            "joystick_right_trig": [ "GamingJoystick", "joystick_right_trigger" ]
+        }
+    },
+    "gun_move_left_hand": {
+        "type": "GunMoveEvent",
+        "args": {},
+        "bodypart_names_to_type": { "Left": "hand" },
+        "triggers": {
+            "move": [ "AOIMouse", "move_cursor" ]
+        }
+    },
+    "gun_move_right_hand": {
+        "type": "GunMoveEvent",
+        "args": {},
+        "bodypart_names_to_type": { "Right": "hand" },
+        "triggers": {
+            "move": [ "AOIMouse", "move_cursor" ]
+        }
+    },
+    "head_nose_tracking": {
+        "type": "NoseTrackingEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "move": [ "AOIMouse", "move_cursor" ],
+            "level_change": [ "AreaOfInterest", "update_spacing_level" ]
+        }
+    },
+    "head_nose_direction_tracking": {
+        "type": "NoseDirectionTrackingEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "move": [ "DesktopMouse", "move_cursor_relative" ]
+        }
+    },
+    "head_nose_direction_tracking_nosebox": {
+        "type": "NoseDirectionTrackingEventNoseBox",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "move": [ "DesktopMouse", "move_cursor_relative" ],
+            "nose_box": [ "NoseBox", "show_nose_box" ],
+            "remove_nose_box": [ "NoseBox", "remove_nose_box" ]
+        }
+    },
+    "head_nose_scroll": {
+        "type": "NoseScrollEvent",
+        "args": {},
+        "bodypart_names_to_type": { "head": "head" },
+        "triggers": {
+            "scroll": [ "DesktopMouse", "scroll" ]
+        }
+    },
+    "head_nose_zoom": {
+        "type": "NoseZoomEvent",
+        "args": {},
+        "bodypart_names_to_type": { "head": "head" },
+        "triggers": {
+            "zoom": [ "DesktopMouse", "zoom" ]
+        }
+    },
+    "head_eye_tracking": {
+        "type": "EyeTrackingEvent",
+        "args": {},
+        "bodypart_names_to_type": { "eye": "eye" },
+        "triggers": {
+            "move": [ "DesktopMouse", "move_cursor" ]
+        }
+    },
+    "head_eye_mode2": {
+        "type": "EyeMode2Event",
+        "args": {},
+        "bodypart_names_to_type": { "eye": "eye" },
+        "triggers": {
+            "move": [ "DesktopMouse", "move_cursor_relative" ]
+        }
+    },
+
+    "head_smile_left_click": {
+        "type": "SmilingEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "DesktopMouse", "left_click" ]
+        }
+    },
+    "head_smile_right_click": {
+        "type": "SmilingEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "DesktopMouse", "right_click" ]
+        }
+    },
+    "head_smile_double_click": {
+        "type": "SmilingEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "DesktopMouse", "double_click" ]
+        }
+    },
+    "head_smile_left_press_hold_release": {
+        "type": "SmilingEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "left_press" ],
+            "release": [ "DesktopMouse", "left_release" ]
+        }
+    },
+    "head_smile_right_press_hold_release": {
+        "type": "SmilingEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "right_press" ],
+            "release": [ "DesktopMouse", "right_release" ]
+        }
+    },
+    "head_smile_on_off_eye_gaze": {
+        "type": "SmilingEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "EditConfigFile", "on_off_eye_gaze" ]
+        }
+    },
+
+    "head_fishface_left_click": {
+        "type": "FishFaceEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "DesktopMouse", "left_click" ]
+        }
+    },
+    "head_fishface_right_click": {
+        "type": "FishFaceEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "DesktopMouse", "right_click" ]
+        }
+    },
+    "head_fishface_double_click": {
+        "type": "FishFaceEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "DesktopMouse", "double_click" ]
+        }
+    },
+    "head_fishface_left_press_hold_release": {
+        "type": "FishFaceEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "left_press" ],
+            "release": [ "DesktopMouse", "left_release" ]
+        }
+    },
+    "head_fishface_right_press_hold_release": {
+        "type": "FishFaceEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "AOIMouse", "right_press" ],
+            "release": [ "AOIMouse", "right_release" ]
+        }
+    },
+    "head_fishface_on_off_eye_gaze": {
+        "type": "FishFaceEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "EditConfigFile", "on_off_eye_gaze" ]
+        }
+    },
+
+    "head_raise_eyebrows_left_click": {
+        "type": "RaiseEyeBrowEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "DesktopMouse", "left_click" ]
+        }
+    },
+    "head_raise_eyebrows_right_click": {
+        "type": "RaiseEyeBrowEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "DesktopMouse", "right_click" ]
+        }
+    },
+    "head_raise_eyebrows_double_click": {
+        "type": "RaiseEyeBrowEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "DesktopMouse", "double_click" ]
+        }
+    },
+    "head_raise_eyebrows_left_press_hold_release": {
+        "type": "RaiseEyeBrowEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "left_press" ],
+            "release": [ "DesktopMouse", "left_release" ]
+        }
+    },
+    "head_raise_eyebrows_right_press_hold_release": {
+        "type": "RaiseEyeBrowEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "right_press" ],
+            "release": [ "DesktopMouse", "right_release" ]
+        }
+    },
+    "head_raise_eyebrows_on_off_eye_gaze": {
+        "type": "RaiseEyeBrowEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "EditConfigFile", "on_off_eye_gaze" ]
+        }
+    },
+
+    "head_open_mouth_left_click": {
+        "type": "OpenMouthEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "DesktopMouse", "left_click" ]
+        }
+    },
+    "head_open_mouth_right_click": {
+        "type": "OpenMouthEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "DesktopMouse", "right_click" ]
+        }
+    },
+    "head_open_mouth_double_click": {
+        "type": "OpenMouthEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "DesktopMouse", "double_click" ]
+        }
+    },
+    "head_open_mouth_left_press_hold_release": {
+        "type": "OpenMouthEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "left_press" ],
+            "release": [ "DesktopMouse", "left_release" ]
+        }
+    },
+    "head_open_mouth_right_press_hold_release": {
+        "type": "OpenMouthEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "right_press" ],
+            "release": [ "DesktopMouse", "right_release" ]
+        }
+    },
+    "head_open_mouth_on_off_eye_gaze": {
+        "type": "OpenMouthEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "EditConfigFile", "on_off_eye_gaze" ]
+        }
+    },
+
+    "head_turn_left_left_click": {
+        "type": "TurnLeftEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "left_click" ]
+        }
+    },
+    "head_turn_left_right_click": {
+        "type": "TurnLeftEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "right_click" ]
+        }
+    },
+    "head_turn_left_double_click": {
+        "type": "TurnLeftEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "double_click" ]
+        }
+    },
+    "head_turn_left_left_press_hold_release": {
+        "type": "TurnLeftEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "left_press" ],
+            "release": [ "DesktopMouse", "left_release" ]
+        }
+    },
+    "head_turn_left_right_press_hold_release": {
+        "type": "TurnLeftEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "right_press" ],
+            "release": [ "DesktopMouse", "right_release" ]
+        }
+    },
+    "head_turn_left_on_off_eye_gaze": {
+        "type": "TurnLeftEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "EditConfigFile", "on_off_eye_gaze" ]
+        }
+    },
+
+    "head_turn_right_left_click": {
+        "type": "TurnRightEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "left_click" ]
+        }
+    },
+    "head_turn_right_right_click": {
+        "type": "TurnRightEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "right_click" ]
+        }
+    },
+    "head_turn_right_double_click": {
+        "type": "TurnRightEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "double_click" ]
+        }
+    },
+    "head_turn_right_left_press_hold_release": {
+        "type": "TurnRightEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "left_press" ],
+            "release": [ "DesktopMouse", "left_release" ]
+        }
+    },
+    "head_turn_right_right_press_hold_release": {
+        "type": "TurnRightEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "right_press" ],
+            "release": [ "DesktopMouse", "right_release" ]
+        }
+    },
+    "head_turn_right_on_off_eye_gaze": {
+        "type": "TurnRightEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "EditConfigFile", "on_off_eye_gaze" ]
+        }
+    },
+    "head_tilt_left_left_click": {
+        "type": "TiltLeftEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "left_click" ]
+        }
+    },
+    "head_tilt_left_right_click": {
+        "type": "TiltLeftEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "right_click" ]
+        }
+    },
+    "head_tilt_left_double_click": {
+        "type": "TiltLeftEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "double_click" ]
+        }
+    },
+    "head_tilt_left_left_press_hold_release": {
+        "type": "TiltLeftEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "left_press" ],
+            "release": [ "DesktopMouse", "left_release" ]
+        }
+    },
+    "head_tilt_left_right_press_hold_release": {
+        "type": "TiltLeftEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "right_press" ],
+            "release": [ "DesktopMouse", "right_release" ]
+        }
+    },
+    "head_tilt_left_on_off_eye_gaze": {
+        "type": "TiltLeftEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "EditConfigFile", "on_off_eye_gaze" ]
+        }
+    },
+
+    "head_tilt_right_left_click": {
+        "type": "TiltRightEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "left_click" ]
+        }
+    },
+    "head_tilt_right_right_click": {
+        "type": "TiltRightEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "right_click" ]
+        }
+    },
+    "head_tilt_right_double_click": {
+        "type": "TiltRightEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "double_click" ]
+        }
+    },
+    "head_tilt_right_left_press_hold_release": {
+        "type": "TiltRightEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "left_press" ],
+            "release": [ "DesktopMouse", "left_release" ]
+        }
+    },
+    "head_tilt_right_right_press_hold_release": {
+        "type": "TiltRightEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "press": [ "DesktopMouse", "right_press" ],
+            "release": [ "DesktopMouse", "right_release" ]
+        }
+    },
+    "head_tilt_right_on_off_eye_gaze": {
+        "type": "TiltRightEvent",
+        "args": {},
+        "bodypart_names_to_type": {
+            "head": "head"
+        },
+        "triggers": {
+            "click": [ "EditConfigFile", "on_off_eye_gaze" ]
+        }
+    }
+}

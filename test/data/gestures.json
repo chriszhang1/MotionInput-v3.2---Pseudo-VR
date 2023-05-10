@@ -1,0 +1,252 @@
+{
+    "hand": {
+        "index_pinch": {
+            "index_pinched": true,
+            "middle_pinched": false,
+            "ring_pinched": false,
+            "pinky_pinched": false
+        },
+        "middle_pinch": {
+            "index_pinched": false,
+            "middle_pinched": true,
+            "ring_pinched": false,
+            "pinky_pinched": false
+        },
+        "ring_pinch": {
+            "index_pinched": false,
+            "middle_pinched": false,
+            "ring_pinched": true,
+            "pinky_pinched": false
+        },
+        "pinky_pinch": {
+            "index_pinched": false,
+            "middle_pinched": false,
+            "ring_pinched": false,
+            "pinky_pinched": true
+        },
+        "double_pinch": {
+            "index_pinched": true,
+            "middle_pinched": true,
+            "ring_pinched": false,
+            "pinky_pinched": false
+        },
+        "rabbit": {
+            "index_pinched": false,
+            "middle_pinched": true,
+            "ring_pinched": true,
+            "pinky_pinched": false
+        },
+        "gun": {
+            "thumb_stretched": true,
+            "index_stretched": true,
+            "middle_folded": true,
+            "ring_folded": true,
+            "pinky_folded": true
+        },
+        "scroll": {
+            "index_pinched": false,
+            "middle_pinched": false,
+            "ring_folded": true,
+            "pinky_folded": true
+        },
+        "fist": {
+            "index_folded": true,
+            "middle_folded": true,
+            "ring_folded": true,
+            "pinky_folded": true
+        },
+        "stretched": {
+            "thumb_stretched": true,
+            "index_stretched": true,
+            "middle_stretched": true,
+            "ring_stretched": true,
+            "pinky_stretched": true
+        },
+        "index_pulldown": {
+            "index_pulldown": true
+        },
+        "middle_pulldown": {
+            "middle_pulldown": true
+        },
+        "ring_pulldown": {
+            "ring_pulldown": true
+        },
+        "index_scissor": {
+            "index_scissor": true,
+            "thumb_scissor": false
+        },
+        "thumb_scissor": {
+            "index_scissor": false,
+            "thumb_scissor": true
+        },
+        "double_scissor": {
+            "index_scissor": true,
+            "thumb_scissor": true
+        },
+        "rocknroll": {
+            "index_stretched": true,
+            "middle_folded": true,
+            "ring_folded": true,
+            "pinky_stretched": true
+        },
+        "peace": {
+            "thumb_folded": true,
+            "index_stretched": true,
+            "middle_stretched": true,
+            "ring_folded": true,
+            "pinky_folded": true
+        },
+        "resting": {
+            "hand_closed": true
+        },
+        "facing_camera": {
+            "palm_facing_camera": true
+        }
+    },
+    "body": {
+        "extremity_up": {
+            "up": true
+        },
+        "extremity_arm_left": {
+            "arm_left": true
+        },
+        "extremity_arm_right": {
+            "arm_right": true
+        },
+        "extremity_punch_left": {
+            "punch_left": true
+        },
+        "extremity_punch_right": {
+            "punch_right": true
+        },
+        "extremity_kick_left": {
+            "kick_left": true
+        },
+        "extremity_kick_right": {
+            "kick_right": true
+        },
+        "extremity_left_walking": {
+            "left_walking": true
+        },
+        "extremity_right_walking": {
+            "right_walking": true
+        },
+        "extremity_up_walking": {
+            "up_walking": true
+        },
+        "extremity_down_walking": {
+            "down_walking": true
+        },
+        "extremity_down_button": {
+            "down_button": true
+        },
+        "extremity_right_button": {
+            "right_button": true
+        },
+        "extremity_left_button": {
+            "left_button": true
+        },
+        "extremity_up_button": {
+            "up_button": true
+        },
+        "extremity_start_key": {
+            "start_key": true
+        },
+        "extremity_quit_key": {
+            "quit_key": true
+        },
+        "squating_down_state": {
+            "squating_down": true
+        },
+        "walking_left_state": {
+            "walking_left": true
+        },
+        "walking_right_state": {
+            "walking_right": true
+        }
+    },
+    "head": {
+        "smiling_gesture": {
+            "smiling": true
+        },
+        "fish_face_gesture": {
+            "fish_face": true
+        },
+        "open_mouth_gesture": {
+            "open_mouth": true
+        },
+        "raise_eye_brow_gesture": {
+            "raise_eye_brow": true
+        },
+        "eyes_close_gesture": {
+            "eyes_close": true
+        },
+        "turn_left_gesture": {
+            "turn_left": true
+        },
+        "turn_right_gesture": {
+            "turn_right": true
+        },
+        "nose_position_gesture": {
+            "nose_point": true
+        },
+        "nose_right_gesture": {
+            "nose_right": true,
+            "fish_face": false
+        },
+        "nose_left_gesture": {
+            "nose_left": true,
+            "fish_face": false
+        },
+        "nose_up_gesture": {
+            "nose_up": true,
+            "smiling": false
+        },
+        "nose_down_gesture": {
+            "nose_down": true,
+            "smiling": false
+        },
+        "nose_scroll_up_gesture": {
+            "smiling": true,
+            "nose_up": true
+        },
+        "nose_scroll_down_gesture": {
+            "smiling": true,
+            "nose_down": true
+        },
+        "nose_zoom_in_gesture": {
+            "fish_face": true,
+            "nose_left": true
+        },
+        "nose_zoom_out_gesture": {
+            "fish_face": true,
+            "nose_right": true
+        }
+    },
+    "eye": {
+        "gaze_nose3d_gesture": {
+            "gaze": true,
+            "nose3d": true
+        }
+    },
+    "speech": {
+        "click": {
+            "click": true
+        },
+        "double click": {
+            "double click": true
+        },
+        "right click": {
+            "right click": true
+        },
+        "save": {
+            "save": true
+        },
+        "transcribe": {
+            "transcribe": true
+        },
+        "stop transcribe": {
+            "stop transcribe": true
+        }
+    }
+}

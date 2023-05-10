@@ -1,0 +1,105 @@
+{
+    "default": "basic_hand",
+    "iteration_order": {
+        "idle_hand": "idle_hand",
+        "basic_hand": "touchpoint_hand",
+        "touchpoint_hand": "extremity_triggers",
+        "extremity_triggers": "gaming_extremity_walking",
+        "gaming_extremity_walking": "head_nose_position",
+        "head_nose_position": "head_nose_direction",
+        "head_nose_direction": "eye",
+        "eye": "speech",
+        "speech": "exercise_no_equipment",
+        "exercise_no_equipment": "exercise_equipment",
+        "exercise_equipment": "basic_hand"
+    },
+    "modes": {
+        "basic_hand": [
+            "general_rocknroll_next_mode",
+            "hand_palm_height_change_aoi_resize_left_hand",
+            "hand_index_pulldown_left_press_left_hand",
+            "hand_double_index_pinch_zoom",
+            "hand_palm_center_move_mouse_left_hand",
+            "hand_to_idle_mode_left_hand",
+            "hand_middle_pinch_right_press_left_hand",
+            "hand_pinky_pinch_monitor_change_left_hand",
+            "hand_fist_doubleclick_left_hand",
+            "hand_index_pinch_left_press_left_hand",
+            "hand_index_middle_scroll_left_hand",
+            "hand_open_keyboard_left_hand"
+        ],
+        "keyboard_hand": [
+            "hand_mouse_switch_left_hand",
+            "in_air_keyboard_click",
+            "in_air_keyboard_active"
+        ],
+        "touchpoint_hand": [
+            "general_rocknroll_next_mode",
+            "hand_palm_center_move_mouse_left_hand",
+            "hand_index_pinch_touch_press_left_hand",
+            "hand_double_index_pinch_zoom",
+            "hand_index_middle_scroll_left_hand"
+        ],
+        "idle_hand": [
+            "hand_to_active_mode_left_hand"
+        ],
+        "extremity_triggers": [
+            "general_rocknroll_next_mode",
+            "extremity_punch_right",
+            "extremity_up",
+            "extremity_arm_right",
+            "extremity_arm_left",
+            "extremity_punch_left",
+            "extremity_kick_left",
+            "extremity_kick_right"
+        ],
+        "exercise_no_equipment": [
+            "general_rocknroll_next_mode",
+            "exercise_squating",
+            "exercise_walking"
+        ],
+        "exercise_equipment": [
+            "general_rocknroll_next_mode",
+            "cycling_exercise"
+        ],
+        "extremity_walking": [
+            "general_rocknroll_next_mode",
+            "extremity_walking_event"
+        ],
+        "gaming_extremity_walking": [
+            "general_rocknroll_next_mode",
+            "gaming_extremity_walking_event"
+        ],
+        "speech": [
+            "general_rocknroll_next_mode",
+            "speech_double_clicking",
+            "speech_clicking",
+            "speech_right_clicking",
+            "speech_hotkey_save",
+            "speech_start_transcribe",
+            "speech_stop_transcribe"
+        ],
+        "head_nose_position": [
+            "general_rocknroll_next_mode",
+            "head_open_mouth_left_press_hold_release",
+            "head_nose_tracking",
+            "head_raise_head_raise_eyebrows_double_click",
+            "head_smile_right_click",
+            "head_fishface_left_click"
+        ],
+        "head_nose_direction": [
+            "general_rocknroll_next_mode",
+            "head_smile_right_click",
+            "head_nose_direction_tracking_nosebox",
+            "head_open_mouth_left_press_hold_release",
+            "head_raise_head_raise_eyebrows_double_click",
+            "head_fishface_left_click",
+            "head_nose_scroll",
+            "head_nose_zoom"
+        ],
+        "eye": [
+            "general_rocknroll_next_mode",
+            "head_eye_tracking"
+        ]
+    }
+}
